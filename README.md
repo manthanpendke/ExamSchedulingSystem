@@ -1,4 +1,4 @@
-﻿# YottaFlex Exam Scheduling System
+﻿# Exam Scheduling System
 
 ## Project objective
 
