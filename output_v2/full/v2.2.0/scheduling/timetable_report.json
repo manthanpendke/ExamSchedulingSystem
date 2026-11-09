@@ -1,0 +1,59 @@
+{
+    "version": "2.2.0",
+    "algorithm": "Three distinct compulsory exam days per track; optional exams on Day 6 slots 1-3",
+    "status": "PASSED",
+    "database_accessed": false,
+    "database_modified": false,
+    "counts": {
+        "students": 5000,
+        "tracks": 75,
+        "courses": 300,
+        "compulsory_courses": 225,
+        "optional_courses": 75,
+        "exams_scheduled": 900,
+        "student_exam_allocations": 20000,
+        "track_course_day_assignments": 225,
+        "timetable_blocks": 12,
+        "physical_room_slot_units": 3600
+    },
+    "compulsory_block_course_load": {
+        "1": 23,
+        "2": 22,
+        "3": 23,
+        "4": 22,
+        "5": 23,
+        "6": 22,
+        "7": 23,
+        "8": 22,
+        "9": 23,
+        "10": 22
+    },
+    "optional_exam_slot_load": {
+        "1": 75,
+        "2": 75,
+        "3": 75
+    },
+    "validation": {
+        "block_load": {
+            "1": 23,
+            "3": 23,
+            "5": 23,
+            "4": 22,
+            "6": 22,
+            "7": 23,
+            "8": 22,
+            "9": 23,
+            "10": 22,
+            "2": 22
+        },
+        "extended_time_students": 127,
+        "extended_time_allocations": 508,
+        "effective_interval_overlaps": 0
+    },
+    "limitations": [
+        "This is timetable allocation, not physical room assignment.",
+        "Room batch capacity, closures, effective-dated room capacity, equipment changeovers and invigilator assignments remain to be validated.",
+        "Extended-time intervals are checked at student level; room-level extended-time occupancy is not yet allocated.",
+        "SQL Server was not accessed or modified."
+    ]
+}

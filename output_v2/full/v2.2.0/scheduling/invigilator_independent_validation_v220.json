@@ -1,0 +1,22 @@
+{
+  "version": "2.2.0",
+  "module": "INVIGILATOR_ALLOCATION_INDEPENDENT_VALIDATION",
+  "status": "PASSED",
+  "checks_executed": 17423,
+  "error_count": 0,
+  "errors": [],
+  "source_room_allocations": 1493,
+  "assigned_room_allocations": 1493,
+  "unassigned_room_allocations": 0,
+  "assignment_coverage_percentage": 100.0,
+  "exception_reason_counts": {},
+  "invigilators_with_assignments": 200,
+  "overlapping_duty_pairs": 0,
+  "daily_workload_records_checked": 1000,
+  "sql_server_accessed": false,
+  "sql_server_modified": false,
+  "groundtruth_accessed": false,
+  "timetable_modified": false,
+  "room_allocations_modified": false,
+  "validated_at": "2026-11-09 18:05:18"
+}

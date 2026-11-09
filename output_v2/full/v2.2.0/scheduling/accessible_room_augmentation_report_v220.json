@@ -1,0 +1,85 @@
+{
+  "Version": "2.2.0",
+  "Operation": "Synthetic accessible-room augmentation",
+  "ExamDate": "2026-11-21",
+  "WavePlan": {
+    "MorningCourses": 38,
+    "AfternoonCourses": 37
+  },
+  "AccessibleRooms": {
+    "CurrentUsable": 10,
+    "RequiredForCourseReservation": 38,
+    "MinimumTarget": 22,
+    "PlannedAfter": 38,
+    "ConvertedRoomIDs": [
+      4,
+      11,
+      12,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      28,
+      29,
+      36,
+      41,
+      42,
+      47,
+      48,
+      53,
+      54,
+      59,
+      66,
+      71,
+      72,
+      77,
+      78,
+      83,
+      84,
+      89,
+      96
+    ],
+    "AccessibleCapacityAfter": 3060,
+    "PeakAccessibleStudents": 22
+  },
+  "CourseLevelAccessibleDemandByWave": {
+    "MORNING": 38,
+    "AFTERNOON": 37
+  },
+  "PeakAccessibleStudentsByWave": {
+    "MORNING": 22,
+    "AFTERNOON": 22
+  },
+  "Equipment": {
+    "CurrentUnits": {
+      "1": 2500,
+      "4": 200
+    },
+    "RequiredUnits": {
+      "1": 38,
+      "4": 38
+    },
+    "PlannedUnitsAfter": {
+      "1": 2500,
+      "4": 228
+    },
+    "EquipmentNames": {
+      "1": "Desktop Computer",
+      "4": "Accessible Desk"
+    }
+  },
+  "Errors": [],
+  "Warnings": [],
+  "Status": "PASSED",
+  "FilesModified": [
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Room.csv",
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomEquipment.csv"
+  ],
+  "SQLServer": "NOT ACCESSED OR MODIFIED",
+  "Backups": [
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Room.backup_20261109_132753.csv",
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomEquipment.backup_20261109_132753.csv"
+  ]
+}

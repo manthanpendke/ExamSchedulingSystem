@@ -1,0 +1,166 @@
+{
+    "project": "ExamSchedulingSystem",
+    "version": "2.2.0",
+    "seed": 20261109,
+    "generated_at": "2026-11-09T12:04:29",
+    "database_modified": false,
+    "tables": {
+        "Student": {
+            "file": "Student.csv",
+            "rows": 5000,
+            "sha256": "01a83a4c2813f38a91ad57ad51561781006687a5d4fe3a315b7721cadfeaac3a"
+        },
+        "Course": {
+            "file": "Course.csv",
+            "rows": 300,
+            "sha256": "3e570463051a006c999a4a83b53ffec87ccd06ffb46d9381ed2f9a0e618af698"
+        },
+        "Enrollment": {
+            "file": "Enrollment.csv",
+            "rows": 20000,
+            "sha256": "de858eecdc591533b39ae7c590db468cd1f3c5de7b06df788668c8c7ccba8045"
+        },
+        "Exam": {
+            "file": "Exam.csv",
+            "rows": 900,
+            "sha256": "85fda50e3000ebba74d5104226d31ee9ca915b73b9a29fc6bab2ef4515c06118"
+        },
+        "ExamEnrollment": {
+            "file": "ExamEnrollment.csv",
+            "rows": 20000,
+            "sha256": "56f1525d735c081373d39d7905c317fb59a5f3226bd2155b359ad41089165e22"
+        },
+        "ExamRequirement": {
+            "file": "ExamRequirement.csv",
+            "rows": 900,
+            "sha256": "36378a306c6be7b073a06f7b4b047c3cc1ebcfd2b2771c4e1f7aed5b5a139dcf"
+        },
+        "ExamRequiredEquipment": {
+            "file": "ExamRequiredEquipment.csv",
+            "rows": 192,
+            "sha256": "3dbab32f06a10866651df472774c91380dbfb9c83ee0abb0b350f901f9a7d4a5"
+        },
+        "Room": {
+            "file": "Room.csv",
+            "rows": 100,
+            "sha256": "eddad1615a3bb182f5b8dd4d30ebd618009f1fad126f5e978d43fe8294a7b648"
+        },
+        "RoomCapacity": {
+            "file": "RoomCapacity.csv",
+            "rows": 100,
+            "sha256": "e5830905f7a6df1c46946f6fbea9e6ed4460b34e376dcada2550adaf618a1274"
+        },
+        "RoomClosure": {
+            "file": "RoomClosure.csv",
+            "rows": 8,
+            "sha256": "83188e4f6385461df86eb5345b0d4a8f78251ff6920ef58d15f8bda8cf99bc55"
+        },
+        "Equipment": {
+            "file": "Equipment.csv",
+            "rows": 6,
+            "sha256": "82eb12399b09de885dfc0a731349a6ac34c97fe097994ab057f6f9fa0fbee371"
+        },
+        "RoomEquipment": {
+            "file": "RoomEquipment.csv",
+            "rows": 159,
+            "sha256": "4d740531960683c8afb5ad80e971a9772a730fbb118fa99eb06ad279795cbf45"
+        },
+        "Invigilator": {
+            "file": "Invigilator.csv",
+            "rows": 200,
+            "sha256": "43e8736bda21d4b43d8d49fa24395ff6078a213f6554aedf1c72c56a59ff01e7"
+        },
+        "Availability": {
+            "file": "Availability.csv",
+            "rows": 1000,
+            "sha256": "c1fdcd455fa63607febf9e91eadff1f60d201ac5573da29a7d98e61c1cd9d411"
+        },
+        "Accommodation": {
+            "file": "Accommodation.csv",
+            "rows": 505,
+            "sha256": "b6f7f5c53d3ff74b5910d4afd1a0eb3194070d0953a8e8c901f9ea2c8bc84541"
+        },
+        "GroundTruth": {
+            "file": "GroundTruth.csv",
+            "rows": 150,
+            "sha256": "c0fa6c51228949c132bf0e3022361a756f7bc6cb12f763da6889ede1948652ab"
+        }
+    },
+    "metadata": {
+        "Track": {
+            "file": "metadata/Track.csv",
+            "rows": 75,
+            "sha256": "d472169525ed162398c4e9436a6fd4a3b0e71d1bee9598e31bc09e19d4338f5a"
+        },
+        "TrackCourse": {
+            "file": "metadata/TrackCourse.csv",
+            "rows": 225,
+            "sha256": "08906f232d7301801d697504b8c9843ab67aff3a99d0d6144a29d5bb258334c4"
+        },
+        "StudentTrack": {
+            "file": "metadata/StudentTrack.csv",
+            "rows": 5000,
+            "sha256": "09cd3a98ea7c90c0d34545c41218b6a3d294a622665107b34c41ef4c5e1ac27f"
+        },
+        "OptionalCoursePool": {
+            "file": "metadata/OptionalCoursePool.csv",
+            "rows": 75,
+            "sha256": "a688590309602e135018a97ba9ceb9df81d63e7e91d4f8c1d297ec7f13b761d5"
+        },
+        "EnrollmentClassification": {
+            "file": "metadata/EnrollmentClassification.csv",
+            "rows": 20000,
+            "sha256": "1a785b94589f405a5032e3b39d9944ab781a36c60c67b82e8fe9f47451df1581"
+        },
+        "SittingAllocation": {
+            "file": "metadata/SittingAllocation.csv",
+            "rows": 20000,
+            "sha256": "ba1d0adddb157a4064bc4b923e4a68b8a155f106bf5c14e276bdaf180cf8d68f"
+        },
+        "PhysicalRoomGrid": {
+            "file": "metadata/PhysicalRoomGrid.csv",
+            "rows": 3600,
+            "sha256": "371cbba5182d169005e0ef9e4cd21d225666269a55c083d7573981c8dcccd18f"
+        }
+    },
+    "validation": {
+        "status": "PASSED",
+        "errors": 0
+    },
+    "approved_post_generation_changes": {
+        "Room.csv": {
+            "baseline_sha256": "eddad1615a3bb182f5b8dd4d30ebd618009f1fad126f5e978d43fe8294a7b648",
+            "current_sha256": "b9fdc0fcd67668c1f26906240758cec9e96527b449b33608d9b9aec010a5c04a",
+            "row_count": 100,
+            "reason": "Approved accessible-room augmentation: 28 standard rooms were converted to accessible rooms.",
+            "evidence_reports": [
+                {
+                    "file": "accessible_room_augmentation_report_v220.json",
+                    "sha256": "4c73035e980882937fc9250320e6930a01a07f04b587bdf69e78b4f6cb0a1d4a"
+                },
+                {
+                    "file": "lab_kit_redistribution_report_v220.json",
+                    "sha256": "7f3b46e954de62f3a9c634002602e7e2a2156cd688b780a6f53206edd1ffd5a6"
+                }
+            ],
+            "approved_refresh_timestamp": "2026-11-09T15:47:26"
+        },
+        "RoomEquipment.csv": {
+            "baseline_sha256": "4d740531960683c8afb5ad80e971a9772a730fbb118fa99eb06ad279795cbf45",
+            "current_sha256": "e609479e101992610797204b436c1c4840590271f46a99d400eb8303f23f6adf",
+            "row_count": 192,
+            "reason": "Approved Lab Kit redistribution and accessible-room equipment updates. Total inventory independently verified.",
+            "evidence_reports": [
+                {
+                    "file": "accessible_room_augmentation_report_v220.json",
+                    "sha256": "4c73035e980882937fc9250320e6930a01a07f04b587bdf69e78b4f6cb0a1d4a"
+                },
+                {
+                    "file": "lab_kit_redistribution_report_v220.json",
+                    "sha256": "7f3b46e954de62f3a9c634002602e7e2a2156cd688b780a6f53206edd1ffd5a6"
+                }
+            ],
+            "approved_refresh_timestamp": "2026-11-09T15:47:26"
+        }
+    }
+}

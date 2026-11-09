@@ -1,0 +1,2826 @@
+{
+  "version": "2.2.0",
+  "module": "INVIGILATOR_ALLOCATION",
+  "status": "COMPLETED_WITHOUT_FORCED_ASSIGNMENTS",
+  "active_invigilators": 200,
+  "availability_records": 1000,
+  "room_allocations": 1493,
+  "assigned_room_allocations": 1493,
+  "unassigned_room_allocations": 0,
+  "assignment_percentage": 100.0,
+  "exception_percentage": 0.0,
+  "exception_reason_counts": {},
+  "invigilator_workload": [
+    {
+      "InvigilatorID": "1",
+      "InvigilatorCode": "INV-000001",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 2.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "2",
+      "InvigilatorCode": "INV-000002",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "3",
+      "InvigilatorCode": "INV-000003",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "4",
+      "InvigilatorCode": "INV-000004",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "5",
+      "InvigilatorCode": "INV-000005",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "6",
+      "InvigilatorCode": "INV-000006",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "7",
+      "InvigilatorCode": "INV-000007",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 2.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "8",
+      "InvigilatorCode": "INV-000008",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "9",
+      "InvigilatorCode": "INV-000009",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "10",
+      "InvigilatorCode": "INV-000010",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "11",
+      "InvigilatorCode": "INV-000011",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "12",
+      "InvigilatorCode": "INV-000012",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "13",
+      "InvigilatorCode": "INV-000013",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 2.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "14",
+      "InvigilatorCode": "INV-000014",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "15",
+      "InvigilatorCode": "INV-000015",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "16",
+      "InvigilatorCode": "INV-000016",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "17",
+      "InvigilatorCode": "INV-000017",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "18",
+      "InvigilatorCode": "INV-000018",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "19",
+      "InvigilatorCode": "INV-000019",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "20",
+      "InvigilatorCode": "INV-000020",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "21",
+      "InvigilatorCode": "INV-000021",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "22",
+      "InvigilatorCode": "INV-000022",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "23",
+      "InvigilatorCode": "INV-000023",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "24",
+      "InvigilatorCode": "INV-000024",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "25",
+      "InvigilatorCode": "INV-000025",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "26",
+      "InvigilatorCode": "INV-000026",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "27",
+      "InvigilatorCode": "INV-000027",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "28",
+      "InvigilatorCode": "INV-000028",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "29",
+      "InvigilatorCode": "INV-000029",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "30",
+      "InvigilatorCode": "INV-000030",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 2.0
+      }
+    },
+    {
+      "InvigilatorID": "31",
+      "InvigilatorCode": "INV-000031",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "32",
+      "InvigilatorCode": "INV-000032",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "33",
+      "InvigilatorCode": "INV-000033",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "34",
+      "InvigilatorCode": "INV-000034",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "35",
+      "InvigilatorCode": "INV-000035",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "36",
+      "InvigilatorCode": "INV-000036",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "37",
+      "InvigilatorCode": "INV-000037",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "38",
+      "InvigilatorCode": "INV-000038",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "39",
+      "InvigilatorCode": "INV-000039",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "40",
+      "InvigilatorCode": "INV-000040",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "41",
+      "InvigilatorCode": "INV-000041",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "42",
+      "InvigilatorCode": "INV-000042",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "43",
+      "InvigilatorCode": "INV-000043",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "44",
+      "InvigilatorCode": "INV-000044",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "45",
+      "InvigilatorCode": "INV-000045",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "46",
+      "InvigilatorCode": "INV-000046",
+      "Assignments": 6,
+      "TotalDutyMinutes": 630,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "47",
+      "InvigilatorCode": "INV-000047",
+      "Assignments": 6,
+      "TotalDutyMinutes": 600,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "48",
+      "InvigilatorCode": "INV-000048",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "49",
+      "InvigilatorCode": "INV-000049",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "50",
+      "InvigilatorCode": "INV-000050",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "51",
+      "InvigilatorCode": "INV-000051",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "52",
+      "InvigilatorCode": "INV-000052",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "53",
+      "InvigilatorCode": "INV-000053",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "54",
+      "InvigilatorCode": "INV-000054",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "55",
+      "InvigilatorCode": "INV-000055",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "56",
+      "InvigilatorCode": "INV-000056",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "57",
+      "InvigilatorCode": "INV-000057",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "58",
+      "InvigilatorCode": "INV-000058",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "59",
+      "InvigilatorCode": "INV-000059",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "60",
+      "InvigilatorCode": "INV-000060",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "61",
+      "InvigilatorCode": "INV-000061",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "62",
+      "InvigilatorCode": "INV-000062",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "63",
+      "InvigilatorCode": "INV-000063",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "64",
+      "InvigilatorCode": "INV-000064",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "65",
+      "InvigilatorCode": "INV-000065",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "66",
+      "InvigilatorCode": "INV-000066",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 3.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "67",
+      "InvigilatorCode": "INV-000067",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "68",
+      "InvigilatorCode": "INV-000068",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "69",
+      "InvigilatorCode": "INV-000069",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "70",
+      "InvigilatorCode": "INV-000070",
+      "Assignments": 9,
+      "TotalDutyMinutes": 810,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "71",
+      "InvigilatorCode": "INV-000071",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "72",
+      "InvigilatorCode": "INV-000072",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "73",
+      "InvigilatorCode": "INV-000073",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "74",
+      "InvigilatorCode": "INV-000074",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "75",
+      "InvigilatorCode": "INV-000075",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "76",
+      "InvigilatorCode": "INV-000076",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "77",
+      "InvigilatorCode": "INV-000077",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "78",
+      "InvigilatorCode": "INV-000078",
+      "Assignments": 5,
+      "TotalDutyMinutes": 480,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "79",
+      "InvigilatorCode": "INV-000079",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "80",
+      "InvigilatorCode": "INV-000080",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "81",
+      "InvigilatorCode": "INV-000081",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "82",
+      "InvigilatorCode": "INV-000082",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "83",
+      "InvigilatorCode": "INV-000083",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "84",
+      "InvigilatorCode": "INV-000084",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "85",
+      "InvigilatorCode": "INV-000085",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "86",
+      "InvigilatorCode": "INV-000086",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "87",
+      "InvigilatorCode": "INV-000087",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "88",
+      "InvigilatorCode": "INV-000088",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "89",
+      "InvigilatorCode": "INV-000089",
+      "Assignments": 6,
+      "TotalDutyMinutes": 600,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "90",
+      "InvigilatorCode": "INV-000090",
+      "Assignments": 5,
+      "TotalDutyMinutes": 480,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "91",
+      "InvigilatorCode": "INV-000091",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "92",
+      "InvigilatorCode": "INV-000092",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "93",
+      "InvigilatorCode": "INV-000093",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "94",
+      "InvigilatorCode": "INV-000094",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "95",
+      "InvigilatorCode": "INV-000095",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "96",
+      "InvigilatorCode": "INV-000096",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "97",
+      "InvigilatorCode": "INV-000097",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "98",
+      "InvigilatorCode": "INV-000098",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "99",
+      "InvigilatorCode": "INV-000099",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "100",
+      "InvigilatorCode": "INV-000100",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "101",
+      "InvigilatorCode": "INV-000101",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "102",
+      "InvigilatorCode": "INV-000102",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "103",
+      "InvigilatorCode": "INV-000103",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "104",
+      "InvigilatorCode": "INV-000104",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "105",
+      "InvigilatorCode": "INV-000105",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "106",
+      "InvigilatorCode": "INV-000106",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "107",
+      "InvigilatorCode": "INV-000107",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "108",
+      "InvigilatorCode": "INV-000108",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "109",
+      "InvigilatorCode": "INV-000109",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "110",
+      "InvigilatorCode": "INV-000110",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "111",
+      "InvigilatorCode": "INV-000111",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "112",
+      "InvigilatorCode": "INV-000112",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "113",
+      "InvigilatorCode": "INV-000113",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "114",
+      "InvigilatorCode": "INV-000114",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 2.0
+      }
+    },
+    {
+      "InvigilatorID": "115",
+      "InvigilatorCode": "INV-000115",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "116",
+      "InvigilatorCode": "INV-000116",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "117",
+      "InvigilatorCode": "INV-000117",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "118",
+      "InvigilatorCode": "INV-000118",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "119",
+      "InvigilatorCode": "INV-000119",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "120",
+      "InvigilatorCode": "INV-000120",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "121",
+      "InvigilatorCode": "INV-000121",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "122",
+      "InvigilatorCode": "INV-000122",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "123",
+      "InvigilatorCode": "INV-000123",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "124",
+      "InvigilatorCode": "INV-000124",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "125",
+      "InvigilatorCode": "INV-000125",
+      "Assignments": 7,
+      "TotalDutyMinutes": 660,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "126",
+      "InvigilatorCode": "INV-000126",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "127",
+      "InvigilatorCode": "INV-000127",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "128",
+      "InvigilatorCode": "INV-000128",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "129",
+      "InvigilatorCode": "INV-000129",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "130",
+      "InvigilatorCode": "INV-000130",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "131",
+      "InvigilatorCode": "INV-000131",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "132",
+      "InvigilatorCode": "INV-000132",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "133",
+      "InvigilatorCode": "INV-000133",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "134",
+      "InvigilatorCode": "INV-000134",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "135",
+      "InvigilatorCode": "INV-000135",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "136",
+      "InvigilatorCode": "INV-000136",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "137",
+      "InvigilatorCode": "INV-000137",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 3.0,
+        "2026-11-18": 2.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "138",
+      "InvigilatorCode": "INV-000138",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "139",
+      "InvigilatorCode": "INV-000139",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "140",
+      "InvigilatorCode": "INV-000140",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "141",
+      "InvigilatorCode": "INV-000141",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "142",
+      "InvigilatorCode": "INV-000142",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "143",
+      "InvigilatorCode": "INV-000143",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "144",
+      "InvigilatorCode": "INV-000144",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "145",
+      "InvigilatorCode": "INV-000145",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "146",
+      "InvigilatorCode": "INV-000146",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "147",
+      "InvigilatorCode": "INV-000147",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "148",
+      "InvigilatorCode": "INV-000148",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "149",
+      "InvigilatorCode": "INV-000149",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "150",
+      "InvigilatorCode": "INV-000150",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "151",
+      "InvigilatorCode": "INV-000151",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "152",
+      "InvigilatorCode": "INV-000152",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "153",
+      "InvigilatorCode": "INV-000153",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "154",
+      "InvigilatorCode": "INV-000154",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "155",
+      "InvigilatorCode": "INV-000155",
+      "Assignments": 6,
+      "TotalDutyMinutes": 600,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "156",
+      "InvigilatorCode": "INV-000156",
+      "Assignments": 5,
+      "TotalDutyMinutes": 510,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 2.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "157",
+      "InvigilatorCode": "INV-000157",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "158",
+      "InvigilatorCode": "INV-000158",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "159",
+      "InvigilatorCode": "INV-000159",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "160",
+      "InvigilatorCode": "INV-000160",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "161",
+      "InvigilatorCode": "INV-000161",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "162",
+      "InvigilatorCode": "INV-000162",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "163",
+      "InvigilatorCode": "INV-000163",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "164",
+      "InvigilatorCode": "INV-000164",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "165",
+      "InvigilatorCode": "INV-000165",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "166",
+      "InvigilatorCode": "INV-000166",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "167",
+      "InvigilatorCode": "INV-000167",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "168",
+      "InvigilatorCode": "INV-000168",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "169",
+      "InvigilatorCode": "INV-000169",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "170",
+      "InvigilatorCode": "INV-000170",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "171",
+      "InvigilatorCode": "INV-000171",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "172",
+      "InvigilatorCode": "INV-000172",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "173",
+      "InvigilatorCode": "INV-000173",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "174",
+      "InvigilatorCode": "INV-000174",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "175",
+      "InvigilatorCode": "INV-000175",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-20": 1.5,
+        "2026-11-21": 4.0
+      }
+    },
+    {
+      "InvigilatorID": "176",
+      "InvigilatorCode": "INV-000176",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "177",
+      "InvigilatorCode": "INV-000177",
+      "Assignments": 7,
+      "TotalDutyMinutes": 690,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "178",
+      "InvigilatorCode": "INV-000178",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 2.0,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 3.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "179",
+      "InvigilatorCode": "INV-000179",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "180",
+      "InvigilatorCode": "INV-000180",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "181",
+      "InvigilatorCode": "INV-000181",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 3.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "182",
+      "InvigilatorCode": "INV-000182",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 2.0,
+        "2026-11-21": 3.0
+      }
+    },
+    {
+      "InvigilatorID": "183",
+      "InvigilatorCode": "INV-000183",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 2.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "184",
+      "InvigilatorCode": "INV-000184",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-20": 2.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "185",
+      "InvigilatorCode": "INV-000185",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 1.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "186",
+      "InvigilatorCode": "INV-000186",
+      "Assignments": 6,
+      "TotalDutyMinutes": 570,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 2.0
+      }
+    },
+    {
+      "InvigilatorID": "187",
+      "InvigilatorCode": "INV-000187",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "188",
+      "InvigilatorCode": "INV-000188",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "189",
+      "InvigilatorCode": "INV-000189",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "190",
+      "InvigilatorCode": "INV-000190",
+      "Assignments": 8,
+      "TotalDutyMinutes": 780,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-20": 3.5,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "191",
+      "InvigilatorCode": "INV-000191",
+      "Assignments": 6,
+      "TotalDutyMinutes": 630,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "192",
+      "InvigilatorCode": "INV-000192",
+      "Assignments": 5,
+      "TotalDutyMinutes": 510,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 2.0,
+        "2026-11-19": 2.0,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "193",
+      "InvigilatorCode": "INV-000193",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "194",
+      "InvigilatorCode": "INV-000194",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "195",
+      "InvigilatorCode": "INV-000195",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 3.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "196",
+      "InvigilatorCode": "INV-000196",
+      "Assignments": 6,
+      "TotalDutyMinutes": 600,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-20": 2.0,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "197",
+      "InvigilatorCode": "INV-000197",
+      "Assignments": 8,
+      "TotalDutyMinutes": 720,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-21": 4.5
+      }
+    },
+    {
+      "InvigilatorID": "198",
+      "InvigilatorCode": "INV-000198",
+      "Assignments": 6,
+      "TotalDutyMinutes": 540,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-17": 1.5,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5
+      }
+    },
+    {
+      "InvigilatorID": "199",
+      "InvigilatorCode": "INV-000199",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-17": 3.0,
+        "2026-11-18": 1.5,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    },
+    {
+      "InvigilatorID": "200",
+      "InvigilatorCode": "INV-000200",
+      "Assignments": 8,
+      "TotalDutyMinutes": 750,
+      "MaxDailyHours": 6.0,
+      "DailyDutyHours": {
+        "2026-11-16": 1.5,
+        "2026-11-18": 3.0,
+        "2026-11-19": 3.0,
+        "2026-11-20": 1.5,
+        "2026-11-21": 3.5
+      }
+    }
+  ],
+  "backups_created": [
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\InvigilatorAssignment.backup_20261109_150734.csv",
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\InvigilatorAllocationExceptions.backup_20261109_150734.csv",
+    "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\invigilator_allocation_report_v220.backup_20261109_150734.json"
+  ],
+  "sql_server_accessed": false,
+  "sql_server_modified": false,
+  "groundtruth_accessed": false,
+  "timetable_modified": false,
+  "room_allocations_modified": false,
+  "generated_at": "2026-11-09 15:07:33"
+}

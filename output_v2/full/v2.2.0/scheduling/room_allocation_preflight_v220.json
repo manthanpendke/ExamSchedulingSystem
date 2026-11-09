@@ -1,0 +1,931 @@
+{
+  "version": "2.2.0",
+  "audit_type": "READ_ONLY_ROOM_ALLOCATION_PREFLIGHT",
+  "sql_server_accessed": false,
+  "files": {
+    "ExamTimetable": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\ExamTimetable.csv",
+      "rows": 900,
+      "columns": [
+        "ExamID",
+        "ExamCode",
+        "CourseID",
+        "SittingOrdinal",
+        "CourseRole",
+        "TrackID",
+        "BlockID",
+        "ExamDate",
+        "DayIndex",
+        "SlotNumber",
+        "SlotStartTime",
+        "SlotEndTime",
+        "StartDateTime",
+        "EndDateTime",
+        "EnrolledStudentCount"
+      ]
+    },
+    "TimetableStudentAllocation": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\TimetableStudentAllocation.csv",
+      "rows": 20000,
+      "columns": [
+        "EnrollmentID",
+        "StudentID",
+        "CourseID",
+        "ExamID",
+        "EnrollmentType",
+        "TrackID",
+        "SittingOrdinal",
+        "ExamDate",
+        "SlotNumber",
+        "SlotID",
+        "StartDateTime",
+        "EndDateTime",
+        "EffectiveDurationMinutes",
+        "EffectiveEndDateTime",
+        "HasExtendedTime"
+      ]
+    },
+    "Room": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Room.csv",
+      "rows": 100,
+      "columns": [
+        "RoomID",
+        "RoomCode",
+        "Building",
+        "Floor",
+        "RoomType",
+        "IsActive",
+        "CreatedAt"
+      ]
+    },
+    "RoomCapacity": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomCapacity.csv",
+      "rows": 100,
+      "columns": [
+        "RoomCapacityID",
+        "RoomID",
+        "Capacity",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "CapacityReason",
+        "CreatedAt"
+      ]
+    },
+    "RoomClosure": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomClosure.csv",
+      "rows": 8,
+      "columns": [
+        "RoomClosureID",
+        "RoomID",
+        "ClosureStart",
+        "ClosureEnd",
+        "ClosureReason",
+        "ClosureStatus",
+        "CreatedAt"
+      ]
+    },
+    "RoomEquipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomEquipment.csv",
+      "rows": 192,
+      "columns": [
+        "RoomEquipmentID",
+        "RoomID",
+        "EquipmentID",
+        "Quantity",
+        "EffectiveFrom",
+        "EffectiveTo"
+      ]
+    },
+    "Equipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Equipment.csv",
+      "rows": 6,
+      "columns": [
+        "EquipmentID",
+        "EquipmentName",
+        "EquipmentCategory",
+        "IsActive",
+        "CreatedAt"
+      ]
+    },
+    "ExamRequirement": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\ExamRequirement.csv",
+      "rows": 900,
+      "columns": [
+        "RequirementID",
+        "ExamID",
+        "DurationMinutes",
+        "RequiredEquipment",
+        "AccessibilityRequired",
+        "SpecialInstructions",
+        "CreatedAt"
+      ]
+    },
+    "ExamRequiredEquipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\ExamRequiredEquipment.csv",
+      "rows": 192,
+      "columns": [
+        "ExamRequiredEquipmentID",
+        "ExamID",
+        "EquipmentID",
+        "QuantityRequired",
+        "IsMandatory"
+      ]
+    },
+    "Accommodation": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Accommodation.csv",
+      "rows": 505,
+      "columns": [
+        "AccommodationID",
+        "StudentID",
+        "AccommodationType",
+        "ExtensionPercentage",
+        "RequiresSeparateRoom",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "AccommodationStatus",
+        "CreatedAt"
+      ]
+    },
+    "StudentSpecialEquipmentRequirement": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\metadata\\StudentSpecialEquipmentRequirement.csv",
+      "rows": 126,
+      "columns": [
+        "AccommodationID",
+        "StudentID",
+        "EquipmentID",
+        "EquipmentName",
+        "QuantityRequired",
+        "RequirementSource"
+      ]
+    }
+  },
+  "resource_summary": {
+    "room_types": {
+      "STANDARD": 52,
+      "ACCESSIBLE": 38,
+      "LAB": 10
+    },
+    "active_rooms": 100,
+    "equipment_types": {
+      "1": "Desktop Computer",
+      "2": "Projector",
+      "3": "Laboratory Kit",
+      "4": "Accessible Desk",
+      "5": "Audio Equipment",
+      "6": "Network Equipment"
+    },
+    "room_equipment_quantity": {
+      "Projector": 0,
+      "Desktop Computer": 0,
+      "Laboratory Kit": 0,
+      "Audio Equipment": 0,
+      "Accessible Desk": 0
+    },
+    "equipment_units": {
+      "Projector": 100,
+      "Desktop Computer": 2500,
+      "Laboratory Kit": 1000,
+      "Audio Equipment": 14,
+      "Accessible Desk": 228
+    },
+    "capacity_distribution": {
+      "30": 17,
+      "40": 17,
+      "50": 17,
+      "60": 17,
+      "80": 16,
+      "100": 16
+    },
+    "effective_daily_coverage": {
+      "2026-11-16": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      },
+      "2026-11-17": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      },
+      "2026-11-18": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      },
+      "2026-11-19": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      },
+      "2026-11-20": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      },
+      "2026-11-21": {
+        "rooms_with_valid_capacity": 100,
+        "accessible_rooms_with_valid_capacity": 38,
+        "rooms_by_equipment": {
+          "Projector": 100,
+          "Desktop Computer": 25,
+          "Laboratory Kit": 15,
+          "Audio Equipment": 14,
+          "Accessible Desk": 38
+        }
+      }
+    },
+    "closure_status_counts": {
+      "ACTIVE": 8
+    },
+    "malformed_closures": [],
+    "duplicate_primary_key_counts": {
+      "Room.RoomID": 0,
+      "Equipment.EquipmentID": 0,
+      "ExamTimetable.ExamID": 0
+    }
+  },
+  "timetable_demand": {
+    "exam_sittings": 900,
+    "student_allocations": 20000,
+    "unique_students": 5000,
+    "occupied_slots": 36,
+    "accommodation_counts_seen_in_allocations": {
+      "EXTENDED_TIME": 508,
+      "ACCESSIBLE_ROOM": 504,
+      "SEPARATE_ROOM": 504,
+      "SPECIAL_EQUIPMENT": 504
+    },
+    "special_equipment_units_seen_in_allocations": {
+      "Desktop Computer": 304,
+      "Accessible Desk": 200
+    },
+    "slot_demand": [
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 1,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 11,
+        "separate_room_students": 12,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 8,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 2,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 11,
+        "separate_room_students": 11,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 9,
+          "Accessible Desk": 2
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 3,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 10,
+        "separate_room_students": 11,
+        "special_equipment_students": 12,
+        "special_equipment_units": {
+          "Desktop Computer": 9,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 4,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 12,
+        "special_equipment_students": 12,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 5,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 12,
+        "separate_room_students": 11,
+        "special_equipment_students": 10,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-16",
+        "day_index": 1,
+        "slot_number": 6,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 10,
+        "special_equipment_students": 12,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 1,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 15,
+        "separate_room_students": 17,
+        "special_equipment_students": 18,
+        "special_equipment_units": {
+          "Desktop Computer": 9,
+          "Accessible Desk": 9
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 8
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 2,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 17,
+        "separate_room_students": 18,
+        "special_equipment_students": 16,
+        "special_equipment_units": {
+          "Desktop Computer": 8,
+          "Accessible Desk": 8
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 8
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 3,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 17,
+        "separate_room_students": 16,
+        "special_equipment_students": 16,
+        "special_equipment_units": {
+          "Desktop Computer": 9,
+          "Accessible Desk": 7
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 8
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 4,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 11,
+        "special_equipment_students": 12,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 5,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 12,
+        "separate_room_students": 11,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-17",
+        "day_index": 2,
+        "slot_number": 6,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 10,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Laboratory Kit": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 1,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 16,
+        "separate_room_students": 16,
+        "special_equipment_students": 17,
+        "special_equipment_units": {
+          "Desktop Computer": 12,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 2,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 16,
+        "separate_room_students": 18,
+        "special_equipment_students": 17,
+        "special_equipment_units": {
+          "Desktop Computer": 11,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 3,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 18,
+        "separate_room_students": 17,
+        "special_equipment_students": 15,
+        "special_equipment_units": {
+          "Desktop Computer": 10,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 7,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 4,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 14,
+        "separate_room_students": 13,
+        "special_equipment_students": 14,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 8
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 5,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 14,
+        "separate_room_students": 14,
+        "special_equipment_students": 15,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 9
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-18",
+        "day_index": 3,
+        "slot_number": 6,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 15,
+        "separate_room_students": 14,
+        "special_equipment_students": 14,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 9
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 1,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 15,
+        "separate_room_students": 13,
+        "special_equipment_students": 14,
+        "special_equipment_units": {
+          "Desktop Computer": 11,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 8,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 2,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 13,
+        "separate_room_students": 14,
+        "special_equipment_students": 15,
+        "special_equipment_units": {
+          "Desktop Computer": 12,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 8,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 3,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 15,
+        "separate_room_students": 15,
+        "special_equipment_students": 14,
+        "special_equipment_units": {
+          "Desktop Computer": 11,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 8,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 4,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 12,
+        "separate_room_students": 11,
+        "special_equipment_students": 10,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 1
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 5,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 11,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 5
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 1
+        }
+      },
+      {
+        "exam_date": "2026-11-19",
+        "day_index": 4,
+        "slot_number": 6,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 11,
+        "separate_room_students": 12,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 6
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 1
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 1,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 12,
+        "separate_room_students": 12,
+        "special_equipment_students": 10,
+        "special_equipment_units": {
+          "Desktop Computer": 8,
+          "Accessible Desk": 2
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 2,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 11,
+        "separate_room_students": 10,
+        "special_equipment_students": 11,
+        "special_equipment_units": {
+          "Desktop Computer": 8,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 3,
+        "sittings": 23,
+        "students": 511,
+        "accessible_students": 10,
+        "separate_room_students": 12,
+        "special_equipment_students": 12,
+        "special_equipment_units": {
+          "Desktop Computer": 9,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 4,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 9,
+        "separate_room_students": 9,
+        "special_equipment_students": 8,
+        "special_equipment_units": {
+          "Desktop Computer": 5,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 5,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 9,
+        "separate_room_students": 8,
+        "special_equipment_students": 9,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-20",
+        "day_index": 5,
+        "slot_number": 6,
+        "sittings": 22,
+        "students": 489,
+        "accessible_students": 8,
+        "separate_room_students": 9,
+        "special_equipment_students": 9,
+        "special_equipment_units": {
+          "Desktop Computer": 6,
+          "Accessible Desk": 3
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 1,
+        "sittings": 38,
+        "students": 848,
+        "accessible_students": 20,
+        "separate_room_students": 23,
+        "special_equipment_students": 22,
+        "special_equipment_units": {
+          "Desktop Computer": 14,
+          "Accessible Desk": 8
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 5,
+          "Desktop Computer": 3,
+          "Laboratory Kit": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 2,
+        "sittings": 38,
+        "students": 836,
+        "accessible_students": 22,
+        "separate_room_students": 21,
+        "special_equipment_students": 20,
+        "special_equipment_units": {
+          "Desktop Computer": 13,
+          "Accessible Desk": 7
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 5,
+          "Desktop Computer": 3,
+          "Laboratory Kit": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 3,
+        "sittings": 38,
+        "students": 850,
+        "accessible_students": 20,
+        "separate_room_students": 21,
+        "special_equipment_students": 21,
+        "special_equipment_units": {
+          "Accessible Desk": 9,
+          "Desktop Computer": 12
+        },
+        "mandatory_exam_equipment": {
+          "Audio Equipment": 5,
+          "Desktop Computer": 3,
+          "Laboratory Kit": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 4,
+        "sittings": 37,
+        "students": 818,
+        "accessible_students": 20,
+        "separate_room_students": 20,
+        "special_equipment_students": 22,
+        "special_equipment_units": {
+          "Accessible Desk": 9,
+          "Desktop Computer": 13
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 2,
+          "Laboratory Kit": 3,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 5,
+        "sittings": 37,
+        "students": 831,
+        "accessible_students": 22,
+        "separate_room_students": 22,
+        "special_equipment_students": 20,
+        "special_equipment_units": {
+          "Desktop Computer": 12,
+          "Accessible Desk": 8
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 2,
+          "Laboratory Kit": 3,
+          "Audio Equipment": 2
+        }
+      },
+      {
+        "exam_date": "2026-11-21",
+        "day_index": 6,
+        "slot_number": 6,
+        "sittings": 37,
+        "students": 817,
+        "accessible_students": 22,
+        "separate_room_students": 19,
+        "special_equipment_students": 21,
+        "special_equipment_units": {
+          "Desktop Computer": 12,
+          "Accessible Desk": 9
+        },
+        "mandatory_exam_equipment": {
+          "Desktop Computer": 2,
+          "Laboratory Kit": 3,
+          "Audio Equipment": 2
+        }
+      }
+    ]
+  },
+  "warnings": [],
+  "errors": [],
+  "status": "PREFLIGHT_COMPLETE"
+}

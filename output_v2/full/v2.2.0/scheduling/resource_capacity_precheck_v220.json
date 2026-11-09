@@ -1,0 +1,7154 @@
+{
+  "Version": "2.2.0",
+  "Check": "Resource capacity lower-bound precheck",
+  "TimetableSittings": 900,
+  "StudentAllocations": 20000,
+  "ActiveRooms": 100,
+  "ActiveInvigilators": 200,
+  "ActiveEquipment": 6,
+  "SlotsChecked": 33,
+  "TotalErrors": 10,
+  "TotalWarnings": 0,
+  "Status": "FAILED",
+  "SlotResults": [
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 1,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 35,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 12,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 8,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 1,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 40,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 79,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 91,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 130,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 169,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 181,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 220,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 259,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 271,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 310,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 349,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 361,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 400,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 439,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 451,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 490,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 529,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 541,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 580,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 619,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 631,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 670,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 2,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 34,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 9,
+        "4": 2
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 2,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 41,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 80,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 92,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 131,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 170,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 182,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 221,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 260,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 272,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 311,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 350,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 362,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 401,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 440,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 452,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 491,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 530,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 542,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 581,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 620,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 632,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 671,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 3,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 34,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 10,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 9,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 3,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 42,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 81,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 93,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 132,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 171,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 183,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 222,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 261,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 273,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 312,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 351,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 363,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 402,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 441,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 453,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 492,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 531,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 543,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 582,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 621,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 633,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 672,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 4,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 34,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 12,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 34,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 46,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 85,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 124,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 136,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 175,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 214,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 226,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 265,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 304,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 316,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 355,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 394,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 406,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 445,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 484,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 496,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 535,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 574,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 586,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 625,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 664,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 5,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 12,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 35,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 47,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 86,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 125,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 137,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 176,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 215,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 227,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 266,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 305,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 317,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 356,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 395,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 407,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 446,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 485,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 497,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 536,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 575,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 587,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 626,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 665,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-16",
+      "SlotNumber": 6,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 32,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 10,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 36,
+          "Students": 23,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 48,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 87,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 126,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 138,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 177,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 216,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 228,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 267,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 306,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 318,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 357,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 396,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 408,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 447,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 486,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 498,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 537,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 576,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 588,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 627,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 666,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 1,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 40,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 17,
+      "AccessibleStudents": 15,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 9,
+        "4": 9
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 4,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 43,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 55,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 94,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 133,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 145,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 184,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 223,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 235,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 274,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 313,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 325,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 364,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 403,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 415,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 454,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 493,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 505,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 544,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 583,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 595,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 634,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 673,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 2,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 41,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 18,
+      "AccessibleStudents": 17,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 8,
+        "4": 8
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 5,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 44,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 56,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 95,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 134,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 146,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 185,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 224,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 236,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 275,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 314,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 326,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 365,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 404,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 416,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 455,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 494,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 506,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 545,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 584,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 596,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 635,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 674,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 3,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 39,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 16,
+      "AccessibleStudents": 17,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 9,
+        "4": 7
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 6,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 45,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 57,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 96,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 135,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 147,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 186,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 225,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 237,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 276,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 315,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 327,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 366,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 405,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 417,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 456,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 495,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 507,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 546,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 585,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 597,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 636,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 675,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 4,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 10,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 49,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 88,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 100,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 139,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 178,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 190,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 229,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 268,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 280,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 319,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 358,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 370,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 409,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 448,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 460,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 499,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 538,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 550,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 589,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 628,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 640,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 5,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 98,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 12,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 11,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 50,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 89,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 101,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 140,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 179,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 191,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 230,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 269,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 281,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 320,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 359,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 371,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 410,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 449,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 461,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 500,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 539,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 551,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 590,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 629,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 641,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-17",
+      "SlotNumber": 6,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 32,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 10,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 166,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 12,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 51,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 90,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 102,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 141,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 180,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 192,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 231,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 270,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 282,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 321,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 360,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 372,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 411,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 450,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 462,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 501,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 540,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 552,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 591,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 630,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 642,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 1,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 39,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 16,
+      "AccessibleStudents": 16,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 12,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 7,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 19,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 58,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 97,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 109,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 148,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 187,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 199,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 238,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 277,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 289,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 328,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 367,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 379,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 418,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 457,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 469,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 508,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 547,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 559,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 598,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 637,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 649,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 2,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 41,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 18,
+      "AccessibleStudents": 16,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 11,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 8,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 20,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 59,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 98,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 110,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 149,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 188,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 200,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 239,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 278,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 290,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 329,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 368,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 380,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 419,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 458,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 470,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 509,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 548,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 560,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 599,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 638,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 650,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 3,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 40,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 17,
+      "AccessibleStudents": 18,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 10,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 9,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 21,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 60,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 99,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 111,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 150,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 189,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 201,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 240,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 279,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 291,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 330,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 369,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 381,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 420,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 459,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 471,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 510,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 549,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 561,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 600,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 639,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 651,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 4,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 35,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 13,
+      "AccessibleStudents": 14,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 8
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 13,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 52,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 64,
+          "Students": 23,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 103,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 142,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 154,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 193,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 232,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 244,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 283,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 322,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 334,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 373,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 412,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 424,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 463,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 502,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 514,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 553,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 592,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 604,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 643,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 5,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 36,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 14,
+      "AccessibleStudents": 14,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 9
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 14,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 53,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 65,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 104,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 143,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 155,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 194,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 233,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 245,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 284,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 323,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 335,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 374,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 413,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 425,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 464,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 503,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 515,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 554,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 593,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 605,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 644,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-18",
+      "SlotNumber": 6,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 36,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 14,
+      "AccessibleStudents": 15,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 2
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 9
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 15,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 54,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 66,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 105,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 144,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 156,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 195,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 234,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 246,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 285,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 324,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 336,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 375,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 414,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 426,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 465,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 504,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 516,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 555,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 594,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 606,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 645,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 1,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 36,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 13,
+      "AccessibleStudents": 15,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 11,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 16,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 28,
+          "Students": 23,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 67,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 106,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 118,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 157,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 196,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 208,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 247,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 286,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 298,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 337,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 376,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 388,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 427,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 466,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 478,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 517,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 556,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 568,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 607,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 646,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 658,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 2,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 37,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 14,
+      "AccessibleStudents": 13,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 12,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 17,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 29,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 68,
+          "Students": 23,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 107,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 119,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 158,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 197,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 209,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 248,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 287,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 299,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 338,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 377,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 389,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 428,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 467,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 479,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 518,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 557,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 569,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 608,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 647,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 659,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 3,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 38,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 3,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 15,
+      "AccessibleStudents": 15,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 11,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 18,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 30,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 69,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 108,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 120,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 159,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 198,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 210,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 249,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 288,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 300,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 339,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 378,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 390,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 429,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 468,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 480,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 519,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 558,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 570,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 609,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 648,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 660,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 4,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 12,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 22,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 61,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 73,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 112,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 151,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 163,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 202,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 241,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 253,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 292,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 331,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 343,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 382,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 421,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 433,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 472,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 511,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 523,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 562,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 601,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 613,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 652,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 5,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 11,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 5
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 23,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 62,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 74,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 113,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 152,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 164,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 203,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 242,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 254,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 293,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 332,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 344,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 383,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 422,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 434,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 473,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 512,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 524,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 563,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 602,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 614,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 653,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-19",
+      "SlotNumber": 6,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 34,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 12,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 6
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 24,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 63,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 75,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 114,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 153,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 165,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 204,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 243,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 255,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 294,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 333,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 345,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 384,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 423,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 435,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 474,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 513,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 525,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 564,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 603,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 615,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 654,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 1,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 35,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 12,
+      "AccessibleStudents": 12,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 8,
+        "4": 2
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 25,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 37,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 76,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 115,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 127,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 166,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 205,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 217,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 256,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 295,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 307,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 346,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 385,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 397,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 436,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 475,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 487,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 526,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 565,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 577,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 616,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 655,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 667,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 2,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 33,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 10,
+      "AccessibleStudents": 11,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 8,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 26,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 38,
+          "Students": 22,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 77,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 116,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 128,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 167,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 206,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 218,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 257,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 296,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 308,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 347,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 386,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 398,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 437,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 476,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 488,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 527,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 566,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 578,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 617,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 656,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 668,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 3,
+      "ExamSittings": 23,
+      "StudentAllocations": 511,
+      "MinimumRoomDemand": 35,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 12,
+      "AccessibleStudents": 10,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 2,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 9,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 27,
+          "Students": 23,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 39,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 78,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 117,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 129,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 168,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 207,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 219,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 258,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 297,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 309,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 348,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 387,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 399,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 438,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 477,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 489,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 528,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 567,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 579,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 618,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 657,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 669,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 4,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 31,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 9,
+      "AccessibleStudents": 9,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 5,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 31,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 70,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 82,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 121,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 160,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 172,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 211,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 250,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 262,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 301,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 340,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 352,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 391,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 430,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 442,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 481,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 520,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 532,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 571,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 610,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 622,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 661,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 5,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 30,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 8,
+      "AccessibleStudents": 9,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 32,
+          "Students": 23,
+          "SeparateRoomStudents": 5,
+          "AccessibleStudents": 6,
+          "MinimumRooms": 6
+        },
+        {
+          "ExamID": 71,
+          "Students": 22,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 83,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 122,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 161,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 173,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 212,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 251,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 263,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 302,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 341,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 353,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 392,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 431,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 443,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 482,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 521,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 533,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 572,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 611,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 623,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 662,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-20",
+      "SlotNumber": 6,
+      "ExamSittings": 22,
+      "StudentAllocations": 489,
+      "MinimumRoomDemand": 31,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 2,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 9,
+      "AccessibleStudents": 8,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 1,
+        "4": 1
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 6,
+        "4": 3
+      },
+      "Errors": [],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 33,
+          "Students": 22,
+          "SeparateRoomStudents": 6,
+          "AccessibleStudents": 5,
+          "MinimumRooms": 7
+        },
+        {
+          "ExamID": 72,
+          "Students": 23,
+          "SeparateRoomStudents": 3,
+          "AccessibleStudents": 3,
+          "MinimumRooms": 4
+        },
+        {
+          "ExamID": 84,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 123,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 162,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 174,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 213,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 252,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 264,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 303,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 342,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 354,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 393,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 432,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 444,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 483,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 522,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 534,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 573,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 612,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 624,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 663,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-21",
+      "SlotNumber": 1,
+      "ExamSittings": 75,
+      "StudentAllocations": 1666,
+      "MinimumRoomDemand": 118,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 40,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 43,
+      "AccessibleStudents": 40,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 27,
+        "4": 17
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 27,
+        "4": 17
+      },
+      "Errors": [
+        "Room lower bound 118 exceeds available rooms 100",
+        "Accessible-room demand lower bound 40 exceeds available accessible rooms 10",
+        "Equipment 1: room demand lower bound 27, equipped rooms available 25",
+        "Equipment 4: room demand lower bound 17, equipped rooms available 10"
+      ],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 676,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 679,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 682,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 685,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 688,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 691,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 694,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 697,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 700,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 703,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 706,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 709,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 712,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 715,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 718,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 721,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 724,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 727,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 730,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 733,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 736,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 739,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 742,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 745,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 748,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 751,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 754,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 757,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 760,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 763,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 766,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 769,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 772,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 775,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 778,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 781,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 784,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 787,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 790,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 793,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 796,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 799,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 802,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 805,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 808,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 811,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 814,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 817,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 820,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 823,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 826,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 829,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 832,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 835,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 838,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 841,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 844,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 847,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 850,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 853,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 856,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 859,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 862,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 865,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 868,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 871,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 874,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 877,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 880,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 883,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 886,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 889,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 892,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 895,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 898,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-21",
+      "SlotNumber": 2,
+      "ExamSittings": 75,
+      "StudentAllocations": 1667,
+      "MinimumRoomDemand": 118,
+      "AvailableRooms": 100,
+      "AccessibleRoomDemandLowerBound": 44,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 43,
+      "AccessibleStudents": 44,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 25,
+        "4": 15
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 25,
+        "4": 15
+      },
+      "Errors": [
+        "Room lower bound 118 exceeds available rooms 100",
+        "Accessible-room demand lower bound 44 exceeds available accessible rooms 10",
+        "Equipment 4: room demand lower bound 15, equipped rooms available 10"
+      ],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 677,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 680,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 683,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 686,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 689,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 692,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 695,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 698,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 701,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 704,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 707,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 710,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 713,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 716,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 719,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 722,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 725,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 728,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 731,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 734,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 737,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 740,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 743,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 746,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 749,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 752,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 755,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 758,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 761,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 764,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 767,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 770,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 773,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 776,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 779,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 782,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 785,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 788,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 791,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 794,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 797,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 800,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 803,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 806,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 809,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 812,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 815,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 818,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 821,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 824,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 827,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 830,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 833,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 836,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 839,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 842,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 845,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 848,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 851,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 854,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 857,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 860,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 863,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 866,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 869,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 872,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 875,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 878,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 881,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 884,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 887,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 890,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 893,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 896,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 899,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        }
+      ]
+    },
+    {
+      "ExamDate": "2026-11-21",
+      "SlotNumber": 3,
+      "ExamSittings": 75,
+      "StudentAllocations": 1667,
+      "MinimumRoomDemand": 115,
+      "AvailableRooms": 99,
+      "AccessibleRoomDemandLowerBound": 42,
+      "AvailableAccessibleRooms": 10,
+      "SeparateRoomStudents": 40,
+      "AccessibleStudents": 42,
+      "AvailableInvigilators": 167,
+      "EquipmentRoomDemandLowerBound": {
+        "1": 24,
+        "4": 18
+      },
+      "SpecialEquipmentStudentDemand": {
+        "1": 24,
+        "4": 18
+      },
+      "Errors": [
+        "Room lower bound 115 exceeds available rooms 99",
+        "Accessible-room demand lower bound 42 exceeds available accessible rooms 10",
+        "Equipment 4: room demand lower bound 18, equipped rooms available 10"
+      ],
+      "Warnings": [],
+      "ExamDetails": [
+        {
+          "ExamID": 678,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 681,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 684,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 687,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 690,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 693,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 696,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 699,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 702,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 705,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 708,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 711,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 714,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 717,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 720,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 723,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 726,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 729,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 732,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 735,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 738,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 741,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 744,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 747,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 750,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 753,
+          "Students": 25,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 756,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 759,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 762,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 765,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 768,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 771,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 774,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 777,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 780,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 783,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 786,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 789,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 792,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 795,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 798,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 801,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 804,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 807,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 810,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 813,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 816,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 819,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 822,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 825,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 828,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 831,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 834,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 837,
+          "Students": 23,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 840,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 843,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 846,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 849,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 852,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 855,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 858,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 861,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 864,
+          "Students": 22,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 867,
+          "Students": 24,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 870,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 873,
+          "Students": 20,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 876,
+          "Students": 25,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 879,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 882,
+          "Students": 21,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 885,
+          "Students": 23,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 888,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 891,
+          "Students": 20,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 894,
+          "Students": 22,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        },
+        {
+          "ExamID": 897,
+          "Students": 24,
+          "SeparateRoomStudents": 0,
+          "AccessibleStudents": 0,
+          "MinimumRooms": 1
+        },
+        {
+          "ExamID": 900,
+          "Students": 21,
+          "SeparateRoomStudents": 1,
+          "AccessibleStudents": 1,
+          "MinimumRooms": 2
+        }
+      ]
+    }
+  ],
+  "Important": "This is a lower-bound feasibility check. It does not prove a complete room or invigilator allocation."
+}

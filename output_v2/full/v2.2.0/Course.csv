@@ -1,0 +1,301 @@
+﻿CourseID,CourseCode,CourseName,Department,Credits,Status,CreatedAt
+1,CRS-0001,Computer Science Core Course 001,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+2,CRS-0002,Electronics Core Course 002,Electronics,5,ACTIVE,2026-01-01 09:00:00
+3,CRS-0003,Mechanical Engineering Core Course 003,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+4,CRS-0004,Information Technology Core Course 004,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+5,CRS-0005,Civil Engineering Core Course 005,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+6,CRS-0006,Computer Science Core Course 006,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+7,CRS-0007,Electronics Core Course 007,Electronics,4,ACTIVE,2026-01-01 09:00:00
+8,CRS-0008,Mechanical Engineering Core Course 008,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+9,CRS-0009,Information Technology Core Course 009,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+10,CRS-0010,Civil Engineering Core Course 010,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+11,CRS-0011,Computer Science Core Course 011,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+12,CRS-0012,Electronics Core Course 012,Electronics,3,ACTIVE,2026-01-01 09:00:00
+13,CRS-0013,Mechanical Engineering Core Course 013,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+14,CRS-0014,Information Technology Core Course 014,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+15,CRS-0015,Civil Engineering Core Course 015,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+16,CRS-0016,Computer Science Core Course 016,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+17,CRS-0017,Electronics Core Course 017,Electronics,5,ACTIVE,2026-01-01 09:00:00
+18,CRS-0018,Mechanical Engineering Core Course 018,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+19,CRS-0019,Information Technology Core Course 019,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+20,CRS-0020,Civil Engineering Core Course 020,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+21,CRS-0021,Computer Science Core Course 021,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+22,CRS-0022,Electronics Core Course 022,Electronics,4,ACTIVE,2026-01-01 09:00:00
+23,CRS-0023,Mechanical Engineering Core Course 023,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+24,CRS-0024,Information Technology Core Course 024,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+25,CRS-0025,Civil Engineering Core Course 025,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+26,CRS-0026,Computer Science Core Course 026,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+27,CRS-0027,Electronics Core Course 027,Electronics,3,ACTIVE,2026-01-01 09:00:00
+28,CRS-0028,Mechanical Engineering Core Course 028,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+29,CRS-0029,Information Technology Core Course 029,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+30,CRS-0030,Civil Engineering Core Course 030,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+31,CRS-0031,Computer Science Core Course 031,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+32,CRS-0032,Electronics Core Course 032,Electronics,5,ACTIVE,2026-01-01 09:00:00
+33,CRS-0033,Mechanical Engineering Core Course 033,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+34,CRS-0034,Information Technology Core Course 034,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+35,CRS-0035,Civil Engineering Core Course 035,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+36,CRS-0036,Computer Science Core Course 036,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+37,CRS-0037,Electronics Core Course 037,Electronics,4,ACTIVE,2026-01-01 09:00:00
+38,CRS-0038,Mechanical Engineering Core Course 038,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+39,CRS-0039,Information Technology Core Course 039,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+40,CRS-0040,Civil Engineering Core Course 040,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+41,CRS-0041,Computer Science Core Course 041,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+42,CRS-0042,Electronics Core Course 042,Electronics,3,ACTIVE,2026-01-01 09:00:00
+43,CRS-0043,Mechanical Engineering Core Course 043,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+44,CRS-0044,Information Technology Core Course 044,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+45,CRS-0045,Civil Engineering Core Course 045,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+46,CRS-0046,Computer Science Core Course 046,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+47,CRS-0047,Electronics Core Course 047,Electronics,5,ACTIVE,2026-01-01 09:00:00
+48,CRS-0048,Mechanical Engineering Core Course 048,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+49,CRS-0049,Information Technology Core Course 049,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+50,CRS-0050,Civil Engineering Core Course 050,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+51,CRS-0051,Computer Science Core Course 051,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+52,CRS-0052,Electronics Core Course 052,Electronics,4,ACTIVE,2026-01-01 09:00:00
+53,CRS-0053,Mechanical Engineering Core Course 053,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+54,CRS-0054,Information Technology Core Course 054,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+55,CRS-0055,Civil Engineering Core Course 055,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+56,CRS-0056,Computer Science Core Course 056,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+57,CRS-0057,Electronics Core Course 057,Electronics,3,ACTIVE,2026-01-01 09:00:00
+58,CRS-0058,Mechanical Engineering Core Course 058,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+59,CRS-0059,Information Technology Core Course 059,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+60,CRS-0060,Civil Engineering Core Course 060,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+61,CRS-0061,Computer Science Core Course 061,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+62,CRS-0062,Electronics Core Course 062,Electronics,5,ACTIVE,2026-01-01 09:00:00
+63,CRS-0063,Mechanical Engineering Core Course 063,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+64,CRS-0064,Information Technology Core Course 064,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+65,CRS-0065,Civil Engineering Core Course 065,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+66,CRS-0066,Computer Science Core Course 066,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+67,CRS-0067,Electronics Core Course 067,Electronics,4,ACTIVE,2026-01-01 09:00:00
+68,CRS-0068,Mechanical Engineering Core Course 068,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+69,CRS-0069,Information Technology Core Course 069,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+70,CRS-0070,Civil Engineering Core Course 070,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+71,CRS-0071,Computer Science Core Course 071,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+72,CRS-0072,Electronics Core Course 072,Electronics,3,ACTIVE,2026-01-01 09:00:00
+73,CRS-0073,Mechanical Engineering Core Course 073,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+74,CRS-0074,Information Technology Core Course 074,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+75,CRS-0075,Civil Engineering Core Course 075,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+76,CRS-0076,Computer Science Core Course 076,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+77,CRS-0077,Electronics Core Course 077,Electronics,5,ACTIVE,2026-01-01 09:00:00
+78,CRS-0078,Mechanical Engineering Core Course 078,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+79,CRS-0079,Information Technology Core Course 079,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+80,CRS-0080,Civil Engineering Core Course 080,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+81,CRS-0081,Computer Science Core Course 081,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+82,CRS-0082,Electronics Core Course 082,Electronics,4,ACTIVE,2026-01-01 09:00:00
+83,CRS-0083,Mechanical Engineering Core Course 083,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+84,CRS-0084,Information Technology Core Course 084,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+85,CRS-0085,Civil Engineering Core Course 085,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+86,CRS-0086,Computer Science Core Course 086,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+87,CRS-0087,Electronics Core Course 087,Electronics,3,ACTIVE,2026-01-01 09:00:00
+88,CRS-0088,Mechanical Engineering Core Course 088,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+89,CRS-0089,Information Technology Core Course 089,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+90,CRS-0090,Civil Engineering Core Course 090,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+91,CRS-0091,Computer Science Core Course 091,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+92,CRS-0092,Electronics Core Course 092,Electronics,5,ACTIVE,2026-01-01 09:00:00
+93,CRS-0093,Mechanical Engineering Core Course 093,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+94,CRS-0094,Information Technology Core Course 094,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+95,CRS-0095,Civil Engineering Core Course 095,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+96,CRS-0096,Computer Science Core Course 096,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+97,CRS-0097,Electronics Core Course 097,Electronics,4,ACTIVE,2026-01-01 09:00:00
+98,CRS-0098,Mechanical Engineering Core Course 098,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+99,CRS-0099,Information Technology Core Course 099,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+100,CRS-0100,Civil Engineering Core Course 100,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+101,CRS-0101,Computer Science Core Course 101,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+102,CRS-0102,Electronics Core Course 102,Electronics,3,ACTIVE,2026-01-01 09:00:00
+103,CRS-0103,Mechanical Engineering Core Course 103,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+104,CRS-0104,Information Technology Core Course 104,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+105,CRS-0105,Civil Engineering Core Course 105,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+106,CRS-0106,Computer Science Core Course 106,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+107,CRS-0107,Electronics Core Course 107,Electronics,5,ACTIVE,2026-01-01 09:00:00
+108,CRS-0108,Mechanical Engineering Core Course 108,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+109,CRS-0109,Information Technology Core Course 109,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+110,CRS-0110,Civil Engineering Core Course 110,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+111,CRS-0111,Computer Science Core Course 111,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+112,CRS-0112,Electronics Core Course 112,Electronics,4,ACTIVE,2026-01-01 09:00:00
+113,CRS-0113,Mechanical Engineering Core Course 113,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+114,CRS-0114,Information Technology Core Course 114,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+115,CRS-0115,Civil Engineering Core Course 115,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+116,CRS-0116,Computer Science Core Course 116,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+117,CRS-0117,Electronics Core Course 117,Electronics,3,ACTIVE,2026-01-01 09:00:00
+118,CRS-0118,Mechanical Engineering Core Course 118,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+119,CRS-0119,Information Technology Core Course 119,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+120,CRS-0120,Civil Engineering Core Course 120,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+121,CRS-0121,Computer Science Core Course 121,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+122,CRS-0122,Electronics Core Course 122,Electronics,5,ACTIVE,2026-01-01 09:00:00
+123,CRS-0123,Mechanical Engineering Core Course 123,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+124,CRS-0124,Information Technology Core Course 124,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+125,CRS-0125,Civil Engineering Core Course 125,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+126,CRS-0126,Computer Science Core Course 126,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+127,CRS-0127,Electronics Core Course 127,Electronics,4,ACTIVE,2026-01-01 09:00:00
+128,CRS-0128,Mechanical Engineering Core Course 128,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+129,CRS-0129,Information Technology Core Course 129,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+130,CRS-0130,Civil Engineering Core Course 130,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+131,CRS-0131,Computer Science Core Course 131,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+132,CRS-0132,Electronics Core Course 132,Electronics,3,ACTIVE,2026-01-01 09:00:00
+133,CRS-0133,Mechanical Engineering Core Course 133,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+134,CRS-0134,Information Technology Core Course 134,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+135,CRS-0135,Civil Engineering Core Course 135,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+136,CRS-0136,Computer Science Core Course 136,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+137,CRS-0137,Electronics Core Course 137,Electronics,5,ACTIVE,2026-01-01 09:00:00
+138,CRS-0138,Mechanical Engineering Core Course 138,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+139,CRS-0139,Information Technology Core Course 139,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+140,CRS-0140,Civil Engineering Core Course 140,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+141,CRS-0141,Computer Science Core Course 141,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+142,CRS-0142,Electronics Core Course 142,Electronics,4,ACTIVE,2026-01-01 09:00:00
+143,CRS-0143,Mechanical Engineering Core Course 143,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+144,CRS-0144,Information Technology Core Course 144,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+145,CRS-0145,Civil Engineering Core Course 145,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+146,CRS-0146,Computer Science Core Course 146,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+147,CRS-0147,Electronics Core Course 147,Electronics,3,ACTIVE,2026-01-01 09:00:00
+148,CRS-0148,Mechanical Engineering Core Course 148,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+149,CRS-0149,Information Technology Core Course 149,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+150,CRS-0150,Civil Engineering Core Course 150,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+151,CRS-0151,Computer Science Core Course 151,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+152,CRS-0152,Electronics Core Course 152,Electronics,5,ACTIVE,2026-01-01 09:00:00
+153,CRS-0153,Mechanical Engineering Core Course 153,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+154,CRS-0154,Information Technology Core Course 154,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+155,CRS-0155,Civil Engineering Core Course 155,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+156,CRS-0156,Computer Science Core Course 156,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+157,CRS-0157,Electronics Core Course 157,Electronics,4,ACTIVE,2026-01-01 09:00:00
+158,CRS-0158,Mechanical Engineering Core Course 158,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+159,CRS-0159,Information Technology Core Course 159,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+160,CRS-0160,Civil Engineering Core Course 160,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+161,CRS-0161,Computer Science Core Course 161,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+162,CRS-0162,Electronics Core Course 162,Electronics,3,ACTIVE,2026-01-01 09:00:00
+163,CRS-0163,Mechanical Engineering Core Course 163,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+164,CRS-0164,Information Technology Core Course 164,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+165,CRS-0165,Civil Engineering Core Course 165,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+166,CRS-0166,Computer Science Core Course 166,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+167,CRS-0167,Electronics Core Course 167,Electronics,5,ACTIVE,2026-01-01 09:00:00
+168,CRS-0168,Mechanical Engineering Core Course 168,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+169,CRS-0169,Information Technology Core Course 169,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+170,CRS-0170,Civil Engineering Core Course 170,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+171,CRS-0171,Computer Science Core Course 171,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+172,CRS-0172,Electronics Core Course 172,Electronics,4,ACTIVE,2026-01-01 09:00:00
+173,CRS-0173,Mechanical Engineering Core Course 173,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+174,CRS-0174,Information Technology Core Course 174,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+175,CRS-0175,Civil Engineering Core Course 175,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+176,CRS-0176,Computer Science Core Course 176,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+177,CRS-0177,Electronics Core Course 177,Electronics,3,ACTIVE,2026-01-01 09:00:00
+178,CRS-0178,Mechanical Engineering Core Course 178,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+179,CRS-0179,Information Technology Core Course 179,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+180,CRS-0180,Civil Engineering Core Course 180,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+181,CRS-0181,Computer Science Core Course 181,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+182,CRS-0182,Electronics Core Course 182,Electronics,5,ACTIVE,2026-01-01 09:00:00
+183,CRS-0183,Mechanical Engineering Core Course 183,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+184,CRS-0184,Information Technology Core Course 184,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+185,CRS-0185,Civil Engineering Core Course 185,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+186,CRS-0186,Computer Science Core Course 186,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+187,CRS-0187,Electronics Core Course 187,Electronics,4,ACTIVE,2026-01-01 09:00:00
+188,CRS-0188,Mechanical Engineering Core Course 188,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+189,CRS-0189,Information Technology Core Course 189,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+190,CRS-0190,Civil Engineering Core Course 190,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+191,CRS-0191,Computer Science Core Course 191,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+192,CRS-0192,Electronics Core Course 192,Electronics,3,ACTIVE,2026-01-01 09:00:00
+193,CRS-0193,Mechanical Engineering Core Course 193,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+194,CRS-0194,Information Technology Core Course 194,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+195,CRS-0195,Civil Engineering Core Course 195,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+196,CRS-0196,Computer Science Core Course 196,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+197,CRS-0197,Electronics Core Course 197,Electronics,5,ACTIVE,2026-01-01 09:00:00
+198,CRS-0198,Mechanical Engineering Core Course 198,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+199,CRS-0199,Information Technology Core Course 199,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+200,CRS-0200,Civil Engineering Core Course 200,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+201,CRS-0201,Computer Science Core Course 201,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+202,CRS-0202,Electronics Core Course 202,Electronics,4,ACTIVE,2026-01-01 09:00:00
+203,CRS-0203,Mechanical Engineering Core Course 203,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+204,CRS-0204,Information Technology Core Course 204,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+205,CRS-0205,Civil Engineering Core Course 205,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+206,CRS-0206,Computer Science Core Course 206,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+207,CRS-0207,Electronics Core Course 207,Electronics,3,ACTIVE,2026-01-01 09:00:00
+208,CRS-0208,Mechanical Engineering Core Course 208,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+209,CRS-0209,Information Technology Core Course 209,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+210,CRS-0210,Civil Engineering Core Course 210,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+211,CRS-0211,Computer Science Core Course 211,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+212,CRS-0212,Electronics Core Course 212,Electronics,5,ACTIVE,2026-01-01 09:00:00
+213,CRS-0213,Mechanical Engineering Core Course 213,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+214,CRS-0214,Information Technology Core Course 214,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+215,CRS-0215,Civil Engineering Core Course 215,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+216,CRS-0216,Computer Science Core Course 216,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+217,CRS-0217,Electronics Core Course 217,Electronics,4,ACTIVE,2026-01-01 09:00:00
+218,CRS-0218,Mechanical Engineering Core Course 218,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+219,CRS-0219,Information Technology Core Course 219,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+220,CRS-0220,Civil Engineering Core Course 220,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+221,CRS-0221,Computer Science Core Course 221,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+222,CRS-0222,Electronics Core Course 222,Electronics,3,ACTIVE,2026-01-01 09:00:00
+223,CRS-0223,Mechanical Engineering Core Course 223,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+224,CRS-0224,Information Technology Core Course 224,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+225,CRS-0225,Civil Engineering Core Course 225,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+226,CRS-0226,Computer Science Elective Course 226,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+227,CRS-0227,Electronics Elective Course 227,Electronics,5,ACTIVE,2026-01-01 09:00:00
+228,CRS-0228,Mechanical Engineering Elective Course 228,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+229,CRS-0229,Information Technology Elective Course 229,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+230,CRS-0230,Civil Engineering Elective Course 230,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+231,CRS-0231,Computer Science Elective Course 231,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+232,CRS-0232,Electronics Elective Course 232,Electronics,4,ACTIVE,2026-01-01 09:00:00
+233,CRS-0233,Mechanical Engineering Elective Course 233,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+234,CRS-0234,Information Technology Elective Course 234,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+235,CRS-0235,Civil Engineering Elective Course 235,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+236,CRS-0236,Computer Science Elective Course 236,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+237,CRS-0237,Electronics Elective Course 237,Electronics,3,ACTIVE,2026-01-01 09:00:00
+238,CRS-0238,Mechanical Engineering Elective Course 238,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+239,CRS-0239,Information Technology Elective Course 239,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+240,CRS-0240,Civil Engineering Elective Course 240,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+241,CRS-0241,Computer Science Elective Course 241,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+242,CRS-0242,Electronics Elective Course 242,Electronics,5,ACTIVE,2026-01-01 09:00:00
+243,CRS-0243,Mechanical Engineering Elective Course 243,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+244,CRS-0244,Information Technology Elective Course 244,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+245,CRS-0245,Civil Engineering Elective Course 245,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+246,CRS-0246,Computer Science Elective Course 246,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+247,CRS-0247,Electronics Elective Course 247,Electronics,4,ACTIVE,2026-01-01 09:00:00
+248,CRS-0248,Mechanical Engineering Elective Course 248,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+249,CRS-0249,Information Technology Elective Course 249,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+250,CRS-0250,Civil Engineering Elective Course 250,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+251,CRS-0251,Computer Science Elective Course 251,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+252,CRS-0252,Electronics Elective Course 252,Electronics,3,ACTIVE,2026-01-01 09:00:00
+253,CRS-0253,Mechanical Engineering Elective Course 253,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+254,CRS-0254,Information Technology Elective Course 254,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+255,CRS-0255,Civil Engineering Elective Course 255,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+256,CRS-0256,Computer Science Elective Course 256,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+257,CRS-0257,Electronics Elective Course 257,Electronics,5,ACTIVE,2026-01-01 09:00:00
+258,CRS-0258,Mechanical Engineering Elective Course 258,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+259,CRS-0259,Information Technology Elective Course 259,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+260,CRS-0260,Civil Engineering Elective Course 260,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+261,CRS-0261,Computer Science Elective Course 261,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+262,CRS-0262,Electronics Elective Course 262,Electronics,4,ACTIVE,2026-01-01 09:00:00
+263,CRS-0263,Mechanical Engineering Elective Course 263,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+264,CRS-0264,Information Technology Elective Course 264,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+265,CRS-0265,Civil Engineering Elective Course 265,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+266,CRS-0266,Computer Science Elective Course 266,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+267,CRS-0267,Electronics Elective Course 267,Electronics,3,ACTIVE,2026-01-01 09:00:00
+268,CRS-0268,Mechanical Engineering Elective Course 268,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+269,CRS-0269,Information Technology Elective Course 269,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+270,CRS-0270,Civil Engineering Elective Course 270,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+271,CRS-0271,Computer Science Elective Course 271,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+272,CRS-0272,Electronics Elective Course 272,Electronics,5,ACTIVE,2026-01-01 09:00:00
+273,CRS-0273,Mechanical Engineering Elective Course 273,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+274,CRS-0274,Information Technology Elective Course 274,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+275,CRS-0275,Civil Engineering Elective Course 275,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+276,CRS-0276,Computer Science Elective Course 276,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+277,CRS-0277,Electronics Elective Course 277,Electronics,4,ACTIVE,2026-01-01 09:00:00
+278,CRS-0278,Mechanical Engineering Elective Course 278,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+279,CRS-0279,Information Technology Elective Course 279,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+280,CRS-0280,Civil Engineering Elective Course 280,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+281,CRS-0281,Computer Science Elective Course 281,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+282,CRS-0282,Electronics Elective Course 282,Electronics,3,ACTIVE,2026-01-01 09:00:00
+283,CRS-0283,Mechanical Engineering Elective Course 283,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+284,CRS-0284,Information Technology Elective Course 284,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+285,CRS-0285,Civil Engineering Elective Course 285,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00
+286,CRS-0286,Computer Science Elective Course 286,Computer Science,4,ACTIVE,2026-01-01 09:00:00
+287,CRS-0287,Electronics Elective Course 287,Electronics,5,ACTIVE,2026-01-01 09:00:00
+288,CRS-0288,Mechanical Engineering Elective Course 288,Mechanical Engineering,3,ACTIVE,2026-01-01 09:00:00
+289,CRS-0289,Information Technology Elective Course 289,Information Technology,4,ACTIVE,2026-01-01 09:00:00
+290,CRS-0290,Civil Engineering Elective Course 290,Civil Engineering,5,ACTIVE,2026-01-01 09:00:00
+291,CRS-0291,Computer Science Elective Course 291,Computer Science,3,ACTIVE,2026-01-01 09:00:00
+292,CRS-0292,Electronics Elective Course 292,Electronics,4,ACTIVE,2026-01-01 09:00:00
+293,CRS-0293,Mechanical Engineering Elective Course 293,Mechanical Engineering,5,ACTIVE,2026-01-01 09:00:00
+294,CRS-0294,Information Technology Elective Course 294,Information Technology,3,ACTIVE,2026-01-01 09:00:00
+295,CRS-0295,Civil Engineering Elective Course 295,Civil Engineering,4,ACTIVE,2026-01-01 09:00:00
+296,CRS-0296,Computer Science Elective Course 296,Computer Science,5,ACTIVE,2026-01-01 09:00:00
+297,CRS-0297,Electronics Elective Course 297,Electronics,3,ACTIVE,2026-01-01 09:00:00
+298,CRS-0298,Mechanical Engineering Elective Course 298,Mechanical Engineering,4,ACTIVE,2026-01-01 09:00:00
+299,CRS-0299,Information Technology Elective Course 299,Information Technology,5,ACTIVE,2026-01-01 09:00:00
+300,CRS-0300,Civil Engineering Elective Course 300,Civil Engineering,3,ACTIVE,2026-01-01 09:00:00

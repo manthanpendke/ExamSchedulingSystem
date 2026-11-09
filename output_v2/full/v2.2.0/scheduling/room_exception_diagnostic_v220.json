@@ -1,0 +1,5388 @@
+{
+  "version": "2.2.0",
+  "exception_records": 61,
+  "source_allocations": 20000,
+  "assigned_student_room_rows": 19481,
+  "diagnostics": [
+    {
+      "exam": {
+        "ExamID": "43",
+        "ExamCode": "EXAM-2026-000043",
+        "CourseID": "15",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "5",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "43",
+        "ExamCode": "EXAM-2026-000043",
+        "CourseID": "15",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "11",
+        "Details": "11 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 11,
+      "accessible_students": 5,
+      "separate_room_students": 5,
+      "special_equipment_students": 6,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 3.0,
+          "rooms_with_at_least_that_quantity": 25
+        },
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 3.0,
+          "rooms_with_at_least_that_quantity": 10
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "225",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 09:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[279]"
+        },
+        {
+          "RoomAllocationID": "226",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 09:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[291]"
+        },
+        {
+          "RoomAllocationID": "227",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "75",
+          "RoomCode": "ROOM-000075",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 09:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[303]"
+        },
+        {
+          "RoomAllocationID": "228",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "5",
+          "RoomCode": "ROOM-000005",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 09:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[315]"
+        },
+        {
+          "RoomAllocationID": "229",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "35",
+          "RoomCode": "ROOM-000035",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 09:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[327]"
+        },
+        {
+          "RoomAllocationID": "230",
+          "ExamID": "43",
+          "CourseID": "15",
+          "RoomID": "65",
+          "RoomCode": "ROOM-000065",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-17 08:00:00",
+          "EndDateTime": "2026-11-17 10:00:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "6",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[273, 285, 297, 309, 321, 333]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "43",
+        "ExamID": "43",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "223",
+        "ExamCode": "EXAM-2026-000223",
+        "CourseID": "75",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "25",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "223",
+        "ExamCode": "EXAM-2026-000223",
+        "CourseID": "75",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "223",
+        "ExamID": "223",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "313",
+        "ExamCode": "EXAM-2026-000313",
+        "CourseID": "105",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "35",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "313",
+        "ExamCode": "EXAM-2026-000313",
+        "CourseID": "105",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "313",
+        "ExamID": "313",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "403",
+        "ExamCode": "EXAM-2026-000403",
+        "CourseID": "135",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "45",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "403",
+        "ExamCode": "EXAM-2026-000403",
+        "CourseID": "135",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "403",
+        "ExamID": "403",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "493",
+        "ExamCode": "EXAM-2026-000493",
+        "CourseID": "165",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "55",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "493",
+        "ExamCode": "EXAM-2026-000493",
+        "CourseID": "165",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "493",
+        "ExamID": "493",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "583",
+        "ExamCode": "EXAM-2026-000583",
+        "CourseID": "195",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "65",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "583",
+        "ExamCode": "EXAM-2026-000583",
+        "CourseID": "195",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "583",
+        "ExamID": "583",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "673",
+        "ExamCode": "EXAM-2026-000673",
+        "CourseID": "225",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "75",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-17 08:00:00",
+        "EndDateTime": "2026-11-17 09:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "673",
+        "ExamCode": "EXAM-2026-000673",
+        "CourseID": "225",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "673",
+        "ExamID": "673",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "44",
+        "ExamCode": "EXAM-2026-000044",
+        "CourseID": "15",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "5",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "44",
+        "ExamCode": "EXAM-2026-000044",
+        "CourseID": "15",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "11",
+        "Details": "11 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 11,
+      "accessible_students": 5,
+      "separate_room_students": 6,
+      "special_equipment_students": 6,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 3.0,
+          "rooms_with_at_least_that_quantity": 25
+        },
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 3.0,
+          "rooms_with_at_least_that_quantity": 10
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "253",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "85",
+          "RoomCode": "ROOM-000085",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[271]"
+        },
+        {
+          "RoomAllocationID": "254",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[283]"
+        },
+        {
+          "RoomAllocationID": "255",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[295]"
+        },
+        {
+          "RoomAllocationID": "256",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "75",
+          "RoomCode": "ROOM-000075",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[307]"
+        },
+        {
+          "RoomAllocationID": "257",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "5",
+          "RoomCode": "ROOM-000005",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[319]"
+        },
+        {
+          "RoomAllocationID": "258",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "35",
+          "RoomCode": "ROOM-000035",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:00:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[331]"
+        },
+        {
+          "RoomAllocationID": "259",
+          "ExamID": "44",
+          "CourseID": "15",
+          "RoomID": "95",
+          "RoomCode": "ROOM-000095",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-17 09:30:00",
+          "EndDateTime": "2026-11-17 11:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "5",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[277, 289, 301, 313, 325]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "44",
+        "ExamID": "44",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "134",
+        "ExamCode": "EXAM-2026-000134",
+        "CourseID": "45",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "15",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "134",
+        "ExamCode": "EXAM-2026-000134",
+        "CourseID": "45",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "134",
+        "ExamID": "134",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "224",
+        "ExamCode": "EXAM-2026-000224",
+        "CourseID": "75",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "25",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "224",
+        "ExamCode": "EXAM-2026-000224",
+        "CourseID": "75",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "224",
+        "ExamID": "224",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "314",
+        "ExamCode": "EXAM-2026-000314",
+        "CourseID": "105",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "35",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "314",
+        "ExamCode": "EXAM-2026-000314",
+        "CourseID": "105",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "314",
+        "ExamID": "314",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "404",
+        "ExamCode": "EXAM-2026-000404",
+        "CourseID": "135",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "45",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "404",
+        "ExamCode": "EXAM-2026-000404",
+        "CourseID": "135",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "404",
+        "ExamID": "404",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "494",
+        "ExamCode": "EXAM-2026-000494",
+        "CourseID": "165",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "55",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "494",
+        "ExamCode": "EXAM-2026-000494",
+        "CourseID": "165",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "494",
+        "ExamID": "494",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "584",
+        "ExamCode": "EXAM-2026-000584",
+        "CourseID": "195",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "65",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "584",
+        "ExamCode": "EXAM-2026-000584",
+        "CourseID": "195",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "584",
+        "ExamID": "584",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "674",
+        "ExamCode": "EXAM-2026-000674",
+        "CourseID": "225",
+        "SittingOrdinal": "2",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "75",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-17 09:30:00",
+        "EndDateTime": "2026-11-17 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "674",
+        "ExamCode": "EXAM-2026-000674",
+        "CourseID": "225",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "674",
+        "ExamID": "674",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "45",
+        "ExamCode": "EXAM-2026-000045",
+        "CourseID": "15",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "5",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "45",
+        "ExamCode": "EXAM-2026-000045",
+        "CourseID": "15",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "11",
+        "Details": "11 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 12,
+      "accessible_students": 6,
+      "separate_room_students": 6,
+      "special_equipment_students": 5,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 3.0,
+          "rooms_with_at_least_that_quantity": 25
+        },
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 2.0,
+          "rooms_with_at_least_that_quantity": 10
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "276",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "25",
+          "RoomCode": "ROOM-000025",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[275]"
+        },
+        {
+          "RoomAllocationID": "277",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "55",
+          "RoomCode": "ROOM-000055",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[287]"
+        },
+        {
+          "RoomAllocationID": "278",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "85",
+          "RoomCode": "ROOM-000085",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[299]"
+        },
+        {
+          "RoomAllocationID": "279",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[311]"
+        },
+        {
+          "RoomAllocationID": "280",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[323]"
+        },
+        {
+          "RoomAllocationID": "281",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "75",
+          "RoomCode": "ROOM-000075",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[335]"
+        },
+        {
+          "RoomAllocationID": "282",
+          "ExamID": "45",
+          "CourseID": "15",
+          "RoomID": "5",
+          "RoomCode": "ROOM-000005",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-17 11:00:00",
+          "EndDateTime": "2026-11-17 13:00:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "6",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[269, 281, 293, 305, 317, 329]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "45",
+        "ExamID": "45",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "315",
+        "ExamCode": "EXAM-2026-000315",
+        "CourseID": "105",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "35",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "315",
+        "ExamCode": "EXAM-2026-000315",
+        "CourseID": "105",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "23",
+        "Details": "23 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "315",
+        "ExamID": "315",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "405",
+        "ExamCode": "EXAM-2026-000405",
+        "CourseID": "135",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "45",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "405",
+        "ExamCode": "EXAM-2026-000405",
+        "CourseID": "135",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "23",
+        "Details": "23 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "405",
+        "ExamID": "405",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "495",
+        "ExamCode": "EXAM-2026-000495",
+        "CourseID": "165",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "55",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "495",
+        "ExamCode": "EXAM-2026-000495",
+        "CourseID": "165",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "495",
+        "ExamID": "495",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "585",
+        "ExamCode": "EXAM-2026-000585",
+        "CourseID": "195",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "65",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "585",
+        "ExamCode": "EXAM-2026-000585",
+        "CourseID": "195",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "585",
+        "ExamID": "585",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "675",
+        "ExamCode": "EXAM-2026-000675",
+        "CourseID": "225",
+        "SittingOrdinal": "3",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "75",
+        "BlockID": "3",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-17 11:00:00",
+        "EndDateTime": "2026-11-17 12:30:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "675",
+        "ExamCode": "EXAM-2026-000675",
+        "CourseID": "225",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "675",
+        "ExamID": "675",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "628",
+        "ExamCode": "EXAM-2026-000628",
+        "CourseID": "210",
+        "SittingOrdinal": "1",
+        "CourseRole": "COMPULSORY",
+        "TrackID": "70",
+        "BlockID": "4",
+        "ExamDate": "2026-11-17",
+        "DayIndex": "2",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-17 12:30:00",
+        "EndDateTime": "2026-11-17 14:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "628",
+        "ExamCode": "EXAM-2026-000628",
+        "CourseID": "210",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "22",
+        "Details": "22 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 0,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [],
+      "exam_requirement": {
+        "RequirementID": "628",
+        "ExamID": "628",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "898",
+        "ExamCode": "EXAM-2026-000898",
+        "CourseID": "300",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "1",
+        "SlotStartTime": "08:00",
+        "SlotEndTime": "09:30",
+        "StartDateTime": "2026-11-21 08:00:00",
+        "EndDateTime": "2026-11-21 09:30:00",
+        "EnrolledStudentCount": "25"
+      },
+      "exception": {
+        "ExamID": "898",
+        "ExamCode": "EXAM-2026-000898",
+        "CourseID": "300",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 25,
+      "assigned_students": 24,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1068",
+          "ExamID": "898",
+          "CourseID": "300",
+          "RoomID": "25",
+          "RoomCode": "ROOM-000025",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 08:00:00",
+          "EndDateTime": "2026-11-21 09:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[375]"
+        },
+        {
+          "RoomAllocationID": "1069",
+          "ExamID": "898",
+          "CourseID": "300",
+          "RoomID": "55",
+          "RoomCode": "ROOM-000055",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 08:00:00",
+          "EndDateTime": "2026-11-21 09:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "23",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[600, 750, 975, 1200, 1350, 1575, 1800, 1950, 2175, 2400, 2550, 2775, 3000, 3150, 3375, 3600, 3750, 3975, 4200, 4350, 4575, 4800, 4950]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "898",
+        "ExamID": "898",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "758",
+        "ExamCode": "EXAM-2026-000758",
+        "CourseID": "253",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "24"
+      },
+      "exception": {
+        "ExamID": "758",
+        "ExamCode": "EXAM-2026-000758",
+        "CourseID": "253",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 24,
+      "assigned_students": 23,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1134",
+          "ExamID": "758",
+          "CourseID": "253",
+          "RoomID": "7",
+          "RoomCode": "ROOM-000007",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "23",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[553, 778, 1003, 1153, 1378, 1603, 1753, 1978, 2203, 2353, 2578, 2803, 2953, 3178, 3403, 3553, 3778, 4003, 4153, 4378, 4603, 4753, 4978]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "758",
+        "ExamID": "758",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "809",
+        "ExamCode": "EXAM-2026-000809",
+        "CourseID": "270",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "24"
+      },
+      "exception": {
+        "ExamID": "809",
+        "ExamCode": "EXAM-2026-000809",
+        "CourseID": "270",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 24,
+      "assigned_students": 23,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1137",
+          "ExamID": "809",
+          "CourseID": "270",
+          "RoomID": "25",
+          "RoomCode": "ROOM-000025",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "23",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[45, 645, 870, 1020, 1245, 1470, 1620, 1845, 2070, 2220, 2445, 2670, 2820, 3045, 3270, 3420, 3645, 3870, 4020, 4245, 4470, 4620, 4845]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "809",
+        "ExamID": "809",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "824",
+        "ExamCode": "EXAM-2026-000824",
+        "CourseID": "275",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "824",
+        "ExamCode": "EXAM-2026-000824",
+        "CourseID": "275",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 21,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1156",
+          "ExamID": "824",
+          "CourseID": "275",
+          "RoomID": "91",
+          "RoomCode": "ROOM-000091",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[275]"
+        },
+        {
+          "RoomAllocationID": "1157",
+          "ExamID": "824",
+          "CourseID": "275",
+          "RoomID": "14",
+          "RoomCode": "ROOM-000014",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:30:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[125, 725, 875, 1100, 1325, 1475, 1700, 1925, 2300, 2525, 2900, 3125, 3350, 3500, 3725, 4100, 4325, 4475, 4700, 4925]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "824",
+        "ExamID": "824",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "878",
+        "ExamCode": "EXAM-2026-000878",
+        "CourseID": "293",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "878",
+        "ExamCode": "EXAM-2026-000878",
+        "CourseID": "293",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1176",
+          "ExamID": "878",
+          "CourseID": "293",
+          "RoomID": "62",
+          "RoomCode": "ROOM-000062",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:30:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[293, 518, 893, 1118, 1493, 1718, 1943, 2093, 2318, 2543, 2693, 2918, 3143, 3293, 3518, 3743, 3893, 4118, 4493, 4718]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "878",
+        "ExamID": "878",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "896",
+        "ExamCode": "EXAM-2026-000896",
+        "CourseID": "299",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "896",
+        "ExamCode": "EXAM-2026-000896",
+        "CourseID": "299",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1177",
+          "ExamID": "896",
+          "CourseID": "299",
+          "RoomID": "74",
+          "RoomCode": "ROOM-000074",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[299]"
+        },
+        {
+          "RoomAllocationID": "1178",
+          "ExamID": "896",
+          "CourseID": "299",
+          "RoomID": "86",
+          "RoomCode": "ROOM-000086",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[524, 674, 899, 1124, 1274, 1499, 1724, 2099, 2324, 2699, 2924, 3149, 3299, 3524, 3899, 4124, 4499, 4724, 4874]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "896",
+        "ExamID": "896",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "692",
+        "ExamCode": "EXAM-2026-000692",
+        "CourseID": "231",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "692",
+        "ExamCode": "EXAM-2026-000692",
+        "CourseID": "231",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1179",
+          "ExamID": "692",
+          "CourseID": "231",
+          "RoomID": "21",
+          "RoomCode": "ROOM-000021",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[231]"
+        },
+        {
+          "RoomAllocationID": "1180",
+          "ExamID": "692",
+          "CourseID": "231",
+          "RoomID": "63",
+          "RoomCode": "ROOM-000063",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "17",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[606, 831, 1056, 1431, 1656, 2031, 2256, 2631, 2856, 3081, 3231, 3456, 3831, 4056, 4431, 4656, 4806]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "692",
+        "ExamID": "692",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "755",
+        "ExamCode": "EXAM-2026-000755",
+        "CourseID": "252",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "755",
+        "ExamCode": "EXAM-2026-000755",
+        "CourseID": "252",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1181",
+          "ExamID": "755",
+          "CourseID": "252",
+          "RoomID": "3",
+          "RoomCode": "ROOM-000003",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[27]"
+        },
+        {
+          "RoomAllocationID": "1182",
+          "ExamID": "755",
+          "CourseID": "252",
+          "RoomID": "9",
+          "RoomCode": "ROOM-000009",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[627, 852, 1227, 1452, 1827, 2052, 2277, 2427, 2652, 2877, 3027, 3252, 3477, 3627, 3852, 4227, 4452, 4827]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "755",
+        "ExamID": "755",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "836",
+        "ExamCode": "EXAM-2026-000836",
+        "CourseID": "279",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "836",
+        "ExamCode": "EXAM-2026-000836",
+        "CourseID": "279",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1185",
+          "ExamID": "836",
+          "CourseID": "279",
+          "RoomID": "39",
+          "RoomCode": "ROOM-000039",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[429, 654, 1029, 1254, 1629, 1854, 2229, 2454, 2679, 2829, 3054, 3279, 3429, 3654, 4029, 4254, 4629, 4854]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "836",
+        "ExamID": "836",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "866",
+        "ExamCode": "EXAM-2026-000866",
+        "CourseID": "289",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "866",
+        "ExamCode": "EXAM-2026-000866",
+        "CourseID": "289",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1186",
+          "ExamID": "866",
+          "CourseID": "289",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[139]"
+        },
+        {
+          "RoomAllocationID": "1187",
+          "ExamID": "866",
+          "CourseID": "289",
+          "RoomID": "51",
+          "RoomCode": "ROOM-000051",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[589, 739, 964, 1189, 1564, 1789, 2164, 2389, 2764, 2989, 3214, 3364, 3589, 3964, 4189, 4564, 4789, 4939]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "866",
+        "ExamID": "866",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "899",
+        "ExamCode": "EXAM-2026-000899",
+        "CourseID": "300",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "2",
+        "SlotStartTime": "09:30",
+        "SlotEndTime": "11:00",
+        "StartDateTime": "2026-11-21 09:30:00",
+        "EndDateTime": "2026-11-21 11:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "899",
+        "ExamCode": "EXAM-2026-000899",
+        "CourseID": "300",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1188",
+          "ExamID": "899",
+          "CourseID": "300",
+          "RoomID": "75",
+          "RoomCode": "ROOM-000075",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 09:30:00",
+          "EndDateTime": "2026-11-21 11:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[225, 825, 1050, 1425, 1650, 1875, 2025, 2250, 2475, 2625, 2850, 3075, 3225, 3450, 3675, 3825, 4050, 4425, 4650]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "899",
+        "ExamID": "899",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "759",
+        "ExamCode": "EXAM-2026-000759",
+        "CourseID": "253",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-21 11:00:00",
+        "EndDateTime": "2026-11-21 12:30:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "759",
+        "ExamCode": "EXAM-2026-000759",
+        "CourseID": "253",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1230",
+          "ExamID": "759",
+          "CourseID": "253",
+          "RoomID": "98",
+          "RoomCode": "ROOM-000098",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[403]"
+        },
+        {
+          "RoomAllocationID": "1231",
+          "ExamID": "759",
+          "CourseID": "253",
+          "RoomID": "21",
+          "RoomCode": "ROOM-000021",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 13:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[253, 628, 853, 1228, 1453, 1828, 2053, 2278, 2428, 2653, 2878, 3028, 3253, 3478, 3628, 3853, 4228, 4453, 4828]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "759",
+        "ExamID": "759",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "900",
+        "ExamCode": "EXAM-2026-000900",
+        "CourseID": "300",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-21 11:00:00",
+        "EndDateTime": "2026-11-21 12:30:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "900",
+        "ExamCode": "EXAM-2026-000900",
+        "CourseID": "300",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1241",
+          "ExamID": "900",
+          "CourseID": "300",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[75]"
+        },
+        {
+          "RoomAllocationID": "1242",
+          "ExamID": "900",
+          "CourseID": "300",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[525, 675, 900, 1125, 1275, 1500, 1725, 2100, 2325, 2700, 2925, 3300, 3525, 3900, 4125, 4275, 4500, 4725, 4875]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "900",
+        "ExamID": "900",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "726",
+        "ExamCode": "EXAM-2026-000726",
+        "CourseID": "242",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-21 11:00:00",
+        "EndDateTime": "2026-11-21 12:30:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "726",
+        "ExamCode": "EXAM-2026-000726",
+        "CourseID": "242",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1244",
+          "ExamID": "726",
+          "CourseID": "242",
+          "RoomID": "63",
+          "RoomCode": "ROOM-000063",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[167]"
+        },
+        {
+          "RoomAllocationID": "1245",
+          "ExamID": "726",
+          "CourseID": "242",
+          "RoomID": "35",
+          "RoomCode": "ROOM-000035",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[542, 767, 992, 1142, 1367, 1592, 1967, 2192, 2567, 2792, 3167, 3392, 3767, 3992, 4367, 4592, 4742, 4967]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "726",
+        "ExamID": "726",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "810",
+        "ExamCode": "EXAM-2026-000810",
+        "CourseID": "270",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "11",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "3",
+        "SlotStartTime": "11:00",
+        "SlotEndTime": "12:30",
+        "StartDateTime": "2026-11-21 11:00:00",
+        "EndDateTime": "2026-11-21 12:30:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "810",
+        "ExamCode": "EXAM-2026-000810",
+        "CourseID": "270",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1246",
+          "ExamID": "810",
+          "CourseID": "270",
+          "RoomID": "5",
+          "RoomCode": "ROOM-000005",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[495]"
+        },
+        {
+          "RoomAllocationID": "1247",
+          "ExamID": "810",
+          "CourseID": "270",
+          "RoomID": "65",
+          "RoomCode": "ROOM-000065",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 11:00:00",
+          "EndDateTime": "2026-11-21 12:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "17",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[720, 1095, 1320, 1695, 1920, 2295, 2520, 2745, 2895, 3120, 3345, 3495, 3720, 4095, 4320, 4695, 4920]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "810",
+        "ExamID": "810",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "763",
+        "ExamCode": "EXAM-2026-000763",
+        "CourseID": "255",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "763",
+        "ExamCode": "EXAM-2026-000763",
+        "CourseID": "255",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 22,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1267",
+          "ExamID": "763",
+          "CourseID": "255",
+          "RoomID": "55",
+          "RoomCode": "ROOM-000055",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "22",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[555, 780, 1005, 1155, 1380, 1605, 1755, 1980, 2205, 2355, 2580, 2805, 2955, 3180, 3405, 3555, 3780, 4005, 4155, 4380, 4755, 4980]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "763",
+        "ExamID": "763",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "856",
+        "ExamCode": "EXAM-2026-000856",
+        "CourseID": "286",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "856",
+        "ExamCode": "EXAM-2026-000856",
+        "CourseID": "286",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 22,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1270",
+          "ExamID": "856",
+          "CourseID": "286",
+          "RoomID": "91",
+          "RoomCode": "ROOM-000091",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "22",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[511, 736, 886, 1111, 1336, 1486, 1711, 1936, 2086, 2311, 2536, 2686, 2911, 3136, 3286, 3511, 3736, 3886, 4111, 4336, 4486, 4711]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "856",
+        "ExamID": "856",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "853",
+        "ExamCode": "EXAM-2026-000853",
+        "CourseID": "285",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "853",
+        "ExamCode": "EXAM-2026-000853",
+        "CourseID": "285",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 21,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1280",
+          "ExamID": "853",
+          "CourseID": "285",
+          "RoomID": "85",
+          "RoomCode": "ROOM-000085",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[135]"
+        },
+        {
+          "RoomAllocationID": "1281",
+          "ExamID": "853",
+          "CourseID": "285",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[585, 960, 1185, 1560, 1785, 2010, 2160, 2385, 2610, 2760, 2985, 3210, 3360, 3585, 3810, 3960, 4185, 4560, 4785, 4935]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "853",
+        "ExamID": "853",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "718",
+        "ExamCode": "EXAM-2026-000718",
+        "CourseID": "240",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "718",
+        "ExamCode": "EXAM-2026-000718",
+        "CourseID": "240",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1288",
+          "ExamID": "718",
+          "CourseID": "240",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[165, 540, 765, 990, 1140, 1365, 1590, 1965, 2190, 2565, 2790, 3015, 3165, 3390, 3765, 3990, 4365, 4590, 4740, 4965]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "718",
+        "ExamID": "718",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "778",
+        "ExamCode": "EXAM-2026-000778",
+        "CourseID": "260",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "778",
+        "ExamCode": "EXAM-2026-000778",
+        "CourseID": "260",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "20",
+        "Details": "20 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 1,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "1",
+          "EquipmentName": "Desktop Computer",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "1",
+          "EquipmentName": "Desktop Computer",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 25,
+          "eligible_room_ids": [
+            "4",
+            "8",
+            "12",
+            "16",
+            "20",
+            "24",
+            "28",
+            "32",
+            "36",
+            "40",
+            "44",
+            "48",
+            "52",
+            "56",
+            "60",
+            "64",
+            "68",
+            "72",
+            "76",
+            "80",
+            "84",
+            "88",
+            "92",
+            "96",
+            "100"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1289",
+          "ExamID": "778",
+          "CourseID": "260",
+          "RoomID": "60",
+          "RoomCode": "ROOM-000060",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "100",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"1\": 1}",
+          "StudentIDsJSON": "[35]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "778",
+        "ExamID": "778",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":1,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "820",
+        "ExamCode": "EXAM-2026-000820",
+        "CourseID": "274",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "820",
+        "ExamCode": "EXAM-2026-000820",
+        "CourseID": "274",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1291",
+          "ExamID": "820",
+          "CourseID": "274",
+          "RoomID": "97",
+          "RoomCode": "ROOM-000097",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[499]"
+        },
+        {
+          "RoomAllocationID": "1292",
+          "ExamID": "820",
+          "CourseID": "274",
+          "RoomID": "54",
+          "RoomCode": "ROOM-000054",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "100",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[124, 724, 874, 1099, 1324, 1699, 1924, 2299, 2524, 2899, 3124, 3349, 3499, 3724, 4099, 4324, 4474, 4699, 4924]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "820",
+        "ExamID": "820",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "862",
+        "ExamCode": "EXAM-2026-000862",
+        "CourseID": "288",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "862",
+        "ExamCode": "EXAM-2026-000862",
+        "CourseID": "288",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1298",
+          "ExamID": "862",
+          "CourseID": "288",
+          "RoomID": "62",
+          "RoomCode": "ROOM-000062",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[363]"
+        },
+        {
+          "RoomAllocationID": "1299",
+          "ExamID": "862",
+          "CourseID": "288",
+          "RoomID": "74",
+          "RoomCode": "ROOM-000074",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[588, 738, 963, 1188, 1563, 1788, 2163, 2388, 2613, 2763, 2988, 3213, 3363, 3588, 3963, 4188, 4563, 4788, 4938]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "862",
+        "ExamID": "862",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "730",
+        "ExamCode": "EXAM-2026-000730",
+        "CourseID": "244",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "730",
+        "ExamCode": "EXAM-2026-000730",
+        "CourseID": "244",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1301",
+          "ExamID": "730",
+          "CourseID": "244",
+          "RoomID": "86",
+          "RoomCode": "ROOM-000086",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[319]"
+        },
+        {
+          "RoomAllocationID": "1302",
+          "ExamID": "730",
+          "CourseID": "244",
+          "RoomID": "98",
+          "RoomCode": "ROOM-000098",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[694, 919, 1294, 1519, 1894, 2119, 2344, 2494, 2719, 2944, 3094, 3319, 3544, 3694, 3919, 4294, 4519, 4894]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "730",
+        "ExamID": "730",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "811",
+        "ExamCode": "EXAM-2026-000811",
+        "CourseID": "271",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "811",
+        "ExamCode": "EXAM-2026-000811",
+        "CourseID": "271",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1303",
+          "ExamID": "811",
+          "CourseID": "271",
+          "RoomID": "3",
+          "RoomCode": "ROOM-000003",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[271]"
+        },
+        {
+          "RoomAllocationID": "1304",
+          "ExamID": "811",
+          "CourseID": "271",
+          "RoomID": "9",
+          "RoomCode": "ROOM-000009",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[121, 721, 1096, 1321, 1696, 1921, 2296, 2521, 2746, 2896, 3121, 3346, 3496, 3721, 4096, 4321, 4696, 4921]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "811",
+        "ExamID": "811",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "841",
+        "ExamCode": "EXAM-2026-000841",
+        "CourseID": "281",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "841",
+        "ExamCode": "EXAM-2026-000841",
+        "CourseID": "281",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1305",
+          "ExamID": "841",
+          "CourseID": "281",
+          "RoomID": "27",
+          "RoomCode": "ROOM-000027",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[431]"
+        },
+        {
+          "RoomAllocationID": "1306",
+          "ExamID": "841",
+          "CourseID": "281",
+          "RoomID": "33",
+          "RoomCode": "ROOM-000033",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "17",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[656, 806, 1031, 1256, 1631, 1856, 2231, 2456, 2831, 3056, 3281, 3431, 3656, 4031, 4256, 4631, 4856]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "841",
+        "ExamID": "841",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "874",
+        "ExamCode": "EXAM-2026-000874",
+        "CourseID": "292",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "874",
+        "ExamCode": "EXAM-2026-000874",
+        "CourseID": "292",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1307",
+          "ExamID": "874",
+          "CourseID": "292",
+          "RoomID": "39",
+          "RoomCode": "ROOM-000039",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[517, 892, 1117, 1492, 1717, 1942, 2092, 2317, 2542, 2692, 2917, 3142, 3292, 3517, 3742, 3892, 4117, 4492, 4717]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "874",
+        "ExamID": "874",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "892",
+        "ExamCode": "EXAM-2026-000892",
+        "CourseID": "298",
+        "SittingOrdinal": "1",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "4",
+        "SlotStartTime": "12:30",
+        "SlotEndTime": "14:00",
+        "StartDateTime": "2026-11-21 12:30:00",
+        "EndDateTime": "2026-11-21 14:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "892",
+        "ExamCode": "EXAM-2026-000892",
+        "CourseID": "298",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1308",
+          "ExamID": "892",
+          "CourseID": "298",
+          "RoomID": "51",
+          "RoomCode": "ROOM-000051",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 12:30:00",
+          "EndDateTime": "2026-11-21 14:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[73, 523, 673, 898, 1123, 1498, 1723, 2098, 2323, 2698, 2923, 3148, 3298, 3523, 3898, 4123, 4498, 4723, 4873]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "892",
+        "ExamID": "892",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "719",
+        "ExamCode": "EXAM-2026-000719",
+        "CourseID": "240",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "5",
+        "SlotStartTime": "14:00",
+        "SlotEndTime": "15:30",
+        "StartDateTime": "2026-11-21 14:00:00",
+        "EndDateTime": "2026-11-21 15:30:00",
+        "EnrolledStudentCount": "24"
+      },
+      "exception": {
+        "ExamID": "719",
+        "ExamCode": "EXAM-2026-000719",
+        "CourseID": "240",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 24,
+      "assigned_students": 23,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1319",
+          "ExamID": "719",
+          "CourseID": "240",
+          "RoomID": "55",
+          "RoomCode": "ROOM-000055",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 15:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[15]"
+        },
+        {
+          "RoomAllocationID": "1320",
+          "ExamID": "719",
+          "CourseID": "240",
+          "RoomID": "85",
+          "RoomCode": "ROOM-000085",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 16:00:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "22",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[465, 615, 840, 1065, 1215, 1440, 1665, 1815, 2040, 2265, 2415, 2640, 2865, 3240, 3465, 3615, 3840, 4065, 4215, 4440, 4665, 4815]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "719",
+        "ExamID": "719",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "764",
+        "ExamCode": "EXAM-2026-000764",
+        "CourseID": "255",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "5",
+        "SlotStartTime": "14:00",
+        "SlotEndTime": "15:30",
+        "StartDateTime": "2026-11-21 14:00:00",
+        "EndDateTime": "2026-11-21 15:30:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "764",
+        "ExamCode": "EXAM-2026-000764",
+        "CourseID": "255",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1354",
+          "ExamID": "764",
+          "CourseID": "255",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 15:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[255]"
+        },
+        {
+          "RoomAllocationID": "1355",
+          "ExamID": "764",
+          "CourseID": "255",
+          "RoomID": "75",
+          "RoomCode": "ROOM-000075",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 16:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[405, 630, 855, 1230, 1455, 1830, 2055, 2430, 2655, 2880, 3030, 3255, 3480, 3630, 3855, 4230, 4455, 4605, 4830]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "764",
+        "ExamID": "764",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "854",
+        "ExamCode": "EXAM-2026-000854",
+        "CourseID": "285",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "5",
+        "SlotStartTime": "14:00",
+        "SlotEndTime": "15:30",
+        "StartDateTime": "2026-11-21 14:00:00",
+        "EndDateTime": "2026-11-21 15:30:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "854",
+        "ExamCode": "EXAM-2026-000854",
+        "CourseID": "285",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1359",
+          "ExamID": "854",
+          "CourseID": "285",
+          "RoomID": "5",
+          "RoomCode": "ROOM-000005",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 15:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[435]"
+        },
+        {
+          "RoomAllocationID": "1360",
+          "ExamID": "854",
+          "CourseID": "285",
+          "RoomID": "35",
+          "RoomCode": "ROOM-000035",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 15:30:00",
+          "AssignedCapacity": "80",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[660, 810, 1035, 1260, 1410, 1635, 1860, 2235, 2460, 2835, 3060, 3435, 3660, 4035, 4260, 4410, 4635, 4860]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "854",
+        "ExamID": "854",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "857",
+        "ExamCode": "EXAM-2026-000857",
+        "CourseID": "286",
+        "SittingOrdinal": "2",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "5",
+        "SlotStartTime": "14:00",
+        "SlotEndTime": "15:30",
+        "StartDateTime": "2026-11-21 14:00:00",
+        "EndDateTime": "2026-11-21 15:30:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "857",
+        "ExamCode": "EXAM-2026-000857",
+        "CourseID": "286",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1361",
+          "ExamID": "857",
+          "CourseID": "286",
+          "RoomID": "98",
+          "RoomCode": "ROOM-000098",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 14:00:00",
+          "EndDateTime": "2026-11-21 16:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[361, 586, 961, 1186, 1561, 1786, 2161, 2386, 2611, 2761, 2986, 3211, 3361, 3586, 3811, 3961, 4186, 4561, 4786, 4936]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "857",
+        "ExamID": "857",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "765",
+        "ExamCode": "EXAM-2026-000765",
+        "CourseID": "255",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "23"
+      },
+      "exception": {
+        "ExamID": "765",
+        "ExamCode": "EXAM-2026-000765",
+        "CourseID": "255",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 23,
+      "assigned_students": 21,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1384",
+          "ExamID": "765",
+          "CourseID": "255",
+          "RoomID": "25",
+          "RoomCode": "ROOM-000025",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:30:00",
+          "AssignedCapacity": "30",
+          "AllocatedStudentCount": "21",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[105, 705, 930, 1080, 1305, 1530, 1680, 1905, 2130, 2280, 2505, 2730, 3105, 3330, 3705, 3930, 4080, 4305, 4530, 4680, 4905]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "765",
+        "ExamID": "765",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "720",
+        "ExamCode": "EXAM-2026-000720",
+        "CourseID": "240",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "22"
+      },
+      "exception": {
+        "ExamID": "720",
+        "ExamCode": "EXAM-2026-000720",
+        "CourseID": "240",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 22,
+      "assigned_students": 21,
+      "accessible_students": 0,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "3",
+          "EquipmentName": "Laboratory Kit",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 10,
+          "eligible_room_ids": [
+            "5",
+            "15",
+            "25",
+            "35",
+            "45",
+            "55",
+            "65",
+            "75",
+            "85",
+            "95"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1395",
+          "ExamID": "720",
+          "CourseID": "240",
+          "RoomID": "15",
+          "RoomCode": "ROOM-000015",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[315]"
+        },
+        {
+          "RoomAllocationID": "1396",
+          "ExamID": "720",
+          "CourseID": "240",
+          "RoomID": "45",
+          "RoomCode": "ROOM-000045",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{\"3\": 1}",
+          "StudentIDsJSON": "[690, 915, 1290, 1515, 1740, 1890, 2115, 2340, 2490, 2715, 2940, 3090, 3315, 3540, 3690, 3915, 4140, 4290, 4515, 4890]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "720",
+        "ExamID": "720",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":3,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "807",
+        "ExamCode": "EXAM-2026-000807",
+        "CourseID": "269",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "807",
+        "ExamCode": "EXAM-2026-000807",
+        "CourseID": "269",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "1": {
+          "equipment_name": "Desktop Computer",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 25
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1419",
+          "ExamID": "807",
+          "CourseID": "269",
+          "RoomID": "78",
+          "RoomCode": "ROOM-000078",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "100",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[344, 569, 794, 944, 1169, 1394, 1544, 1769, 1994, 2369, 2594, 2969, 3194, 3569, 3794, 4169, 4394, 4544, 4769, 4994]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "807",
+        "ExamID": "807",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "861",
+        "ExamCode": "EXAM-2026-000861",
+        "CourseID": "287",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "21"
+      },
+      "exception": {
+        "ExamID": "861",
+        "ExamCode": "EXAM-2026-000861",
+        "CourseID": "287",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 21,
+      "assigned_students": 20,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1422",
+          "ExamID": "861",
+          "CourseID": "287",
+          "RoomID": "62",
+          "RoomCode": "ROOM-000062",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:30:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "20",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[137, 587, 962, 1187, 1562, 1787, 2162, 2387, 2612, 2762, 2987, 3212, 3362, 3587, 3812, 3962, 4187, 4562, 4787, 4937]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "861",
+        "ExamID": "861",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "729",
+        "ExamCode": "EXAM-2026-000729",
+        "CourseID": "243",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "729",
+        "ExamCode": "EXAM-2026-000729",
+        "CourseID": "243",
+        "ReasonCode": "NO_EQUIPMENT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 0,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1423",
+          "ExamID": "729",
+          "CourseID": "243",
+          "RoomID": "74",
+          "RoomCode": "ROOM-000074",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:30:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[93, 693, 918, 1293, 1518, 1893, 2118, 2343, 2493, 2718, 2943, 3093, 3318, 3543, 3693, 3918, 4293, 4518, 4893]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "729",
+        "ExamID": "729",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "747",
+        "ExamCode": "EXAM-2026-000747",
+        "CourseID": "249",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "747",
+        "ExamCode": "EXAM-2026-000747",
+        "CourseID": "249",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 1,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1424",
+          "ExamID": "747",
+          "CourseID": "249",
+          "RoomID": "86",
+          "RoomCode": "ROOM-000086",
+          "GroupType": "SEPARATE",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "40",
+          "AllocatedStudentCount": "1",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[99]"
+        },
+        {
+          "RoomAllocationID": "1425",
+          "ExamID": "747",
+          "CourseID": "249",
+          "RoomID": "3",
+          "RoomCode": "ROOM-000003",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "17",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[699, 924, 1074, 1299, 1524, 1899, 2124, 2499, 2724, 3099, 3324, 3699, 3924, 4299, 4524, 4674, 4899]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "747",
+        "ExamID": "747",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "789",
+        "ExamCode": "EXAM-2026-000789",
+        "CourseID": "263",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "789",
+        "ExamCode": "EXAM-2026-000789",
+        "CourseID": "263",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "2",
+        "Details": "2 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 18,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 1,
+      "mandatory_equipment": [],
+      "equipment_room_coverage": [],
+      "special_equipment_room_coverage": {
+        "4": {
+          "equipment_name": "Accessible Desk",
+          "required_units_across_exam": 1.0,
+          "rooms_with_at_least_that_quantity": 38
+        }
+      },
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1426",
+          "ExamID": "789",
+          "CourseID": "263",
+          "RoomID": "9",
+          "RoomCode": "ROOM-000009",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:00:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "18",
+          "EquipmentRequirementsJSON": "{}",
+          "StudentIDsJSON": "[563, 788, 1163, 1388, 1763, 1988, 2363, 2588, 2813, 2963, 3188, 3413, 3563, 3788, 4163, 4388, 4763, 4988]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "789",
+        "ExamID": "789",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    },
+    {
+      "exam": {
+        "ExamID": "891",
+        "ExamCode": "EXAM-2026-000891",
+        "CourseID": "297",
+        "SittingOrdinal": "3",
+        "CourseRole": "OPTIONAL",
+        "TrackID": "",
+        "BlockID": "12",
+        "ExamDate": "2026-11-21",
+        "DayIndex": "6",
+        "SlotNumber": "6",
+        "SlotStartTime": "15:30",
+        "SlotEndTime": "17:00",
+        "StartDateTime": "2026-11-21 15:30:00",
+        "EndDateTime": "2026-11-21 17:00:00",
+        "EnrolledStudentCount": "20"
+      },
+      "exception": {
+        "ExamID": "891",
+        "ExamCode": "EXAM-2026-000891",
+        "CourseID": "297",
+        "ReasonCode": "ACCOMMODATION_CONFLICT",
+        "UnassignedStudentCount": "1",
+        "Details": "1 student(s) could not be assigned without relaxing hard constraints."
+      },
+      "source_students": 20,
+      "assigned_students": 19,
+      "accessible_students": 1,
+      "separate_room_students": 0,
+      "special_equipment_students": 0,
+      "mandatory_equipment": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1"
+        }
+      ],
+      "equipment_room_coverage": [
+        {
+          "EquipmentID": "5",
+          "EquipmentName": "Audio Equipment",
+          "QuantityRequired": 1.0,
+          "IsMandatory": "1",
+          "eligible_room_count": 14,
+          "eligible_room_ids": [
+            "7",
+            "14",
+            "21",
+            "28",
+            "35",
+            "42",
+            "49",
+            "56",
+            "63",
+            "70",
+            "77",
+            "84",
+            "91",
+            "98"
+          ]
+        }
+      ],
+      "special_equipment_room_coverage": {},
+      "valid_rooms_on_exam_date": 100,
+      "room_allocations": [
+        {
+          "RoomAllocationID": "1429",
+          "ExamID": "891",
+          "CourseID": "297",
+          "RoomID": "63",
+          "RoomCode": "ROOM-000063",
+          "GroupType": "STANDARD",
+          "StartDateTime": "2026-11-21 15:30:00",
+          "EndDateTime": "2026-11-21 17:30:00",
+          "AssignedCapacity": "50",
+          "AllocatedStudentCount": "19",
+          "EquipmentRequirementsJSON": "{\"5\": 1}",
+          "StudentIDsJSON": "[297, 522, 672, 897, 1122, 1497, 1722, 2097, 2322, 2697, 2922, 3147, 3297, 3522, 3897, 4122, 4497, 4722, 4872]"
+        }
+      ],
+      "exam_requirement": {
+        "RequirementID": "891",
+        "ExamID": "891",
+        "DurationMinutes": "90",
+        "RequiredEquipment": "[{\"EquipmentID\":5,\"QuantityRequired\":1,\"IsMandatory\":true}]",
+        "AccessibilityRequired": "0",
+        "SpecialInstructions": "",
+        "CreatedAt": "2026-01-15 09:00:00"
+      }
+    }
+  ]
+}

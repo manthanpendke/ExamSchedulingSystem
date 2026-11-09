@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "name": "ExamSchedulingSyntheticDataset",
+    "version": "1.0.0",
+    "random_seed": 20261022,
+    "academic_year": 2026,
+    "output_format": [
+      "csv",
+      "json",
+      "sql"
+    ]
+  },
+  "profiles": {
+    "starter": {
+      "students": 100,
+      "courses": 20,
+      "exams": 15,
+      "rooms": 10,
+      "invigilators": 15
+    },
+    "full": {
+      "students": 5000,
+      "courses": 100,
+      "exams": 300,
+      "rooms": 100,
+      "invigilators": 200
+    }
+  },
+  "generation": {
+    "default_profile": "full",
+    "enrollment_min_courses": 2,
+    "enrollment_max_courses": 6,
+    "anomaly_injection_enabled": true,
+    "ground_truth_separate": true,
+    "validate_before_export": true
+  },
+  "reproducibility": {
+    "compare_checksums": true,
+    "deterministic_ids": true,
+    "fixed_seed_required": true
+  }
+}

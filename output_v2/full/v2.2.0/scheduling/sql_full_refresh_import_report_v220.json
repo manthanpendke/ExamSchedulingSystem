@@ -1,0 +1,33 @@
+{
+  "status": "COMMITTED",
+  "dataset_version": "2.2.0",
+  "committed_at": "2026-11-09T16:32:24",
+  "row_counts": {
+    "Accommodation": 505,
+    "AssignmentEvent": 0,
+    "AssignmentInvigilator": 1493,
+    "AssignmentStudent": 19947,
+    "Availability": 1000,
+    "Course": 300,
+    "Enrollment": 20000,
+    "Equipment": 6,
+    "Exam": 900,
+    "ExamEnrollment": 20000,
+    "ExamRequiredEquipment": 192,
+    "ExamRequirement": 900,
+    "Invigilator": 200,
+    "Room": 100,
+    "RoomCapacity": 100,
+    "RoomClosure": 8,
+    "RoomEquipment": 192,
+    "ScheduleAssignment": 1493,
+    "SchedulingException": 36,
+    "SchedulingRun": 1,
+    "Student": 5000
+  },
+  "total_rows": 72373,
+  "groundtruth_accessed": false,
+  "evaluation_schema_accessed": false,
+  "source_csv_modified": false,
+  "schema_modified": false
+}

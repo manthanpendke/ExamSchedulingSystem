@@ -1,0 +1,519 @@
+{
+    "project": "ExamSchedulingSystem",
+    "version": "2.2.0",
+    "validation_type": "Independent CSV dataset validation",
+    "status": "PASSED",
+    "database_accessed": false,
+    "database_modified": false,
+    "ground_truth_accessed": false,
+    "checks_executed": 94,
+    "checks_passed": 94,
+    "checks_failed": 0,
+    "warnings": [],
+    "errors": [],
+    "checks": [
+        {
+            "name": "Configuration version",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Database access disabled",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Database writes disabled",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Physical grid dimensions",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Manifest version",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Manifest says database was not modified",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Manifest file integrity (including approved resource changes)",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "GroundTruth excluded from validator file access",
+            "status": "PASS",
+            "details": "GroundTruth.csv is intentionally not read or hashed."
+        },
+        {
+            "name": "Approved resource changes have current matching hashes",
+            "status": "PASS",
+            "details": "Verified approved changes: ['Room.csv', 'RoomEquipment.csv']"
+        },
+        {
+            "name": "Student record count",
+            "status": "PASS",
+            "details": "Expected 5000, found 5000"
+        },
+        {
+            "name": "Course record count",
+            "status": "PASS",
+            "details": "Expected 300, found 300"
+        },
+        {
+            "name": "Enrollment record count",
+            "status": "PASS",
+            "details": "Expected 20000, found 20000"
+        },
+        {
+            "name": "Exam record count",
+            "status": "PASS",
+            "details": "Expected 900, found 900"
+        },
+        {
+            "name": "ExamEnrollment record count",
+            "status": "PASS",
+            "details": "Expected 20000, found 20000"
+        },
+        {
+            "name": "ExamRequirement record count",
+            "status": "PASS",
+            "details": "Expected 900, found 900"
+        },
+        {
+            "name": "ExamRequiredEquipment record count",
+            "status": "PASS",
+            "details": "Expected 192, found 192"
+        },
+        {
+            "name": "Room record count",
+            "status": "PASS",
+            "details": "Expected 100, found 100"
+        },
+        {
+            "name": "RoomCapacity record count",
+            "status": "PASS",
+            "details": "Expected 100, found 100"
+        },
+        {
+            "name": "RoomClosure record count",
+            "status": "PASS",
+            "details": "Expected 8, found 8"
+        },
+        {
+            "name": "Equipment record count",
+            "status": "PASS",
+            "details": "Expected 6, found 6"
+        },
+        {
+            "name": "RoomEquipment record count",
+            "status": "PASS",
+            "details": "Expected 192, found 192"
+        },
+        {
+            "name": "Invigilator record count",
+            "status": "PASS",
+            "details": "Expected 200, found 200"
+        },
+        {
+            "name": "Availability record count",
+            "status": "PASS",
+            "details": "Expected 1000, found 1000"
+        },
+        {
+            "name": "Accommodation record count",
+            "status": "PASS",
+            "details": "Expected 505, found 505"
+        },
+        {
+            "name": "Metadata Track record count",
+            "status": "PASS",
+            "details": "Expected 75, found 75"
+        },
+        {
+            "name": "Metadata TrackCourse record count",
+            "status": "PASS",
+            "details": "Expected 225, found 225"
+        },
+        {
+            "name": "Metadata StudentTrack record count",
+            "status": "PASS",
+            "details": "Expected 5000, found 5000"
+        },
+        {
+            "name": "Metadata OptionalCoursePool record count",
+            "status": "PASS",
+            "details": "Expected 75, found 75"
+        },
+        {
+            "name": "Metadata EnrollmentClassification record count",
+            "status": "PASS",
+            "details": "Expected 20000, found 20000"
+        },
+        {
+            "name": "Metadata SittingAllocation record count",
+            "status": "PASS",
+            "details": "Expected 20000, found 20000"
+        },
+        {
+            "name": "Metadata PhysicalRoomGrid record count",
+            "status": "PASS",
+            "details": "Expected 3600, found 3600"
+        },
+        {
+            "name": "Student.StudentID uniqueness",
+            "status": "PASS",
+            "details": "5000 records, 5000 unique values"
+        },
+        {
+            "name": "Course.CourseID uniqueness",
+            "status": "PASS",
+            "details": "300 records, 300 unique values"
+        },
+        {
+            "name": "Enrollment.EnrollmentID uniqueness",
+            "status": "PASS",
+            "details": "20000 records, 20000 unique values"
+        },
+        {
+            "name": "Exam.ExamID uniqueness",
+            "status": "PASS",
+            "details": "900 records, 900 unique values"
+        },
+        {
+            "name": "ExamEnrollment.ExamEnrollmentID uniqueness",
+            "status": "PASS",
+            "details": "20000 records, 20000 unique values"
+        },
+        {
+            "name": "ExamRequirement.RequirementID uniqueness",
+            "status": "PASS",
+            "details": "900 records, 900 unique values"
+        },
+        {
+            "name": "Room.RoomID uniqueness",
+            "status": "PASS",
+            "details": "100 records, 100 unique values"
+        },
+        {
+            "name": "RoomCapacity.RoomCapacityID uniqueness",
+            "status": "PASS",
+            "details": "100 records, 100 unique values"
+        },
+        {
+            "name": "RoomClosure.RoomClosureID uniqueness",
+            "status": "PASS",
+            "details": "8 records, 8 unique values"
+        },
+        {
+            "name": "Equipment.EquipmentID uniqueness",
+            "status": "PASS",
+            "details": "6 records, 6 unique values"
+        },
+        {
+            "name": "RoomEquipment.RoomEquipmentID uniqueness",
+            "status": "PASS",
+            "details": "192 records, 192 unique values"
+        },
+        {
+            "name": "ExamRequiredEquipment.ExamRequiredEquipmentID uniqueness",
+            "status": "PASS",
+            "details": "192 records, 192 unique values"
+        },
+        {
+            "name": "Invigilator.InvigilatorID uniqueness",
+            "status": "PASS",
+            "details": "200 records, 200 unique values"
+        },
+        {
+            "name": "Availability.AvailabilityID uniqueness",
+            "status": "PASS",
+            "details": "1000 records, 1000 unique values"
+        },
+        {
+            "name": "Accommodation.AccommodationID uniqueness",
+            "status": "PASS",
+            "details": "505 records, 505 unique values"
+        },
+        {
+            "name": "metadata.Track.TrackID uniqueness",
+            "status": "PASS",
+            "details": "75 records, 75 unique values"
+        },
+        {
+            "name": "metadata.StudentTrack.StudentID uniqueness",
+            "status": "PASS",
+            "details": "5000 records, 5000 unique values"
+        },
+        {
+            "name": "metadata.OptionalCoursePool.CourseID uniqueness",
+            "status": "PASS",
+            "details": "75 records, 75 unique values"
+        },
+        {
+            "name": "metadata.SittingAllocation.EnrollmentID uniqueness",
+            "status": "PASS",
+            "details": "20000 records, 20000 unique values"
+        },
+        {
+            "name": "metadata.EnrollmentClassification.EnrollmentID uniqueness",
+            "status": "PASS",
+            "details": "20000 records, 20000 unique values"
+        },
+        {
+            "name": "Student ID range",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Course ID range",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Compulsory course IDs",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Optional course IDs",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Exact track size distribution",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "50 tracks contain 67 students",
+            "status": "PASS",
+            "details": "Found 50"
+        },
+        {
+            "name": "25 tracks contain 66 students",
+            "status": "PASS",
+            "details": "Found 25"
+        },
+        {
+            "name": "Exactly 3 unique compulsory courses per track",
+            "status": "PASS",
+            "details": "Invalid tracks: []"
+        },
+        {
+            "name": "Compulsory courses are not shared across tracks",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "StudentTrack references valid tracks",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "StudentTrack references valid students",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "TrackCourse references valid courses",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Track mapping contains 225 rows",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Enrollment references valid students",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Enrollment references valid courses",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Classification covers every enrollment",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Enrollment classification is valid",
+            "status": "PASS",
+            "details": "Invalid enrollments: []"
+        },
+        {
+            "name": "No duplicate student-course enrollment",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Every student has exactly 3 compulsory and 1 optional enrollment",
+            "status": "PASS",
+            "details": "Invalid students: []"
+        },
+        {
+            "name": "All enrolled students have a track assignment",
+            "status": "PASS",
+            "details": "Missing track assignments: []"
+        },
+        {
+            "name": "ExamEnrollment references and pairs are valid",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "ExamEnrollment covers 20000 records",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Every exam has a valid sitting allocation",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "SittingAllocation matches ExamEnrollment",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Every course has exactly 3 exam sittings",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Exam IDs cover 1 through 900",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "RoomEquipment references valid rooms",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "RoomEquipment references valid equipment",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "ExamRequiredEquipment references valid exams",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "ExamRequiredEquipment references valid equipment",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Exam equipment JSON matches normalized equipment table",
+            "status": "PASS",
+            "details": "Mismatched exams: []"
+        },
+        {
+            "name": "RoomCapacity references valid rooms",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "RoomClosure references valid rooms",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Availability references valid invigilators",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Accommodation references valid students",
+            "status": "PASS",
+            "details": "0 invalid references"
+        },
+        {
+            "name": "Room capacities are positive",
+            "status": "PASS",
+            "details": "Invalid rooms: []"
+        },
+        {
+            "name": "Availability intervals have positive duration",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Room closure intervals have positive duration",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Extended-time accommodations have positive extensions",
+            "status": "PASS",
+            "details": "Invalid records: []"
+        },
+        {
+            "name": "Physical grid has exactly 3600 rows",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Physical grid contains every room/day/slot combination",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Physical grid unit IDs are unique",
+            "status": "PASS",
+            "details": ""
+        },
+        {
+            "name": "Physical grid IDs follow deterministic mapping",
+            "status": "PASS",
+            "details": ""
+        }
+    ],
+    "record_counts": {
+        "Student": 5000,
+        "Course": 300,
+        "Enrollment": 20000,
+        "Exam": 900,
+        "ExamEnrollment": 20000,
+        "ExamRequirement": 900,
+        "ExamRequiredEquipment": 192,
+        "Room": 100,
+        "RoomCapacity": 100,
+        "RoomClosure": 8,
+        "Equipment": 6,
+        "RoomEquipment": 192,
+        "Invigilator": 200,
+        "Availability": 1000,
+        "Accommodation": 505,
+        "Track": 75,
+        "TrackCourse": 225,
+        "StudentTrack": 5000,
+        "OptionalCoursePool": 75,
+        "EnrollmentClassification": 20000,
+        "SittingAllocation": 20000,
+        "PhysicalRoomGrid": 3600
+    },
+    "limitations": [
+        "This validates dataset structure and relationships only.",
+        "It does not prove the timetable is conflict-free.",
+        "It does not validate actual room assignments.",
+        "It does not validate actual invigilator assignments.",
+        "It does not validate real-time room occupancy or extended-time reuse.",
+        "GroundTruth.csv is protected and intentionally excluded from all reads.",
+        "SQL Server schema compatibility must be checked separately before import."
+    ]
+}

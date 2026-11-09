@@ -1,0 +1,50 @@
+﻿schema_name,table_name,constraint_name,definition,is_disabled,is_not_trusted
+dbo,Accommodation,CK_Accommodation_Dates,([EffectiveTo] IS NULL OR [EffectiveTo]>=[EffectiveFrom]),False,False
+dbo,Accommodation,CK_Accommodation_Extension,([AccommodationType]='EXTENDED_TIME' AND [ExtensionPercentage]>(0) AND [ExtensionPercentage]<=(200) OR [AccommodationType]<>'EXTENDED_TIME' AND [ExtensionPercentage] IS NULL),False,False
+dbo,Accommodation,CK_Accommodation_Status,([AccommodationStatus]='REVOKED' OR [AccommodationStatus]='EXPIRED' OR [AccommodationStatus]='ACTIVE'),False,False
+dbo,Accommodation,CK_Accommodation_Type,([AccommodationType]='SPECIAL_EQUIPMENT' OR [AccommodationType]='SEPARATE_ROOM' OR [AccommodationType]='ACCESSIBLE_ROOM' OR [AccommodationType]='EXTENDED_TIME'),False,False
+dbo,AssignmentEvent,CK_AssignmentEvent_Details,([EventDetails] IS NULL OR isjson([EventDetails])=(1)),False,False
+dbo,AssignmentEvent,CK_AssignmentEvent_Type,([EventType]='STUDENT_REALLOCATED' OR [EventType]='INVIGILATOR_CHANGED' OR [EventType]='CANCELLED' OR [EventType]='RESCHEDULED' OR [EventType]='CONFIRMED' OR [EventType]='CREATED'),False,False
+dbo,AssignmentInvigilator,CK_AssignmentInvigilator_Role,([AssignedRole]='RELIEF' OR [AssignedRole]='ASSISTANT' OR [AssignedRole]='PRIMARY'),False,False
+dbo,AssignmentInvigilator,CK_AssignmentInvigilator_Status,([AssignmentStatus]='REMOVED' OR [AssignmentStatus]='ASSIGNED'),False,False
+dbo,AssignmentStudent,CK_AssignmentStudent_Status,([AllocationStatus]='REMOVED' OR [AllocationStatus]='ALLOCATED'),False,False
+dbo,Availability,CK_Availability_Status,([AvailabilityStatus]='UNAVAILABLE' OR [AvailabilityStatus]='AVAILABLE'),False,False
+dbo,Availability,CK_Availability_Time,([AvailableTo]>[AvailableFrom]),False,False
+dbo,Course,CK_Course_Credits,([Credits]>=(1) AND [Credits]<=(10)),False,False
+dbo,Course,CK_Course_Status,([Status]='INACTIVE' OR [Status]='ACTIVE'),False,False
+dbo,Enrollment,CK_Enrollment_Dates,([EffectiveTo] IS NULL OR [EffectiveTo]>=[EffectiveFrom]),False,False
+dbo,Enrollment,CK_Enrollment_Status,([EnrollmentStatus]='COMPLETED' OR [EnrollmentStatus]='DROPPED' OR [EnrollmentStatus]='ENROLLED'),False,False
+dbo,Exam,CK_Exam_Code,([ExamCode] like 'EXAM-2026-[0-9][0-9][0-9][0-9][0-9][0-9]'),False,False
+dbo,Exam,CK_Exam_Status,([ExamStatus]='CANCELLED' OR [ExamStatus]='SCHEDULED' OR [ExamStatus]='READY' OR [ExamStatus]='DRAFT'),False,False
+dbo,Exam,CK_Exam_Window,([ExamWindowEnd]>[ExamWindowStart]),False,False
+dbo,ExamEnrollment,CK_ExamEnrollment_Status,([ParticipationStatus]='EXEMPT' OR [ParticipationStatus]='WITHDRAWN' OR [ParticipationStatus]='REGISTERED'),False,False
+dbo,ExamRequiredEquipment,CK_ExamEquipment_Quantity,([QuantityRequired]>(0)),False,False
+dbo,ExamRequirement,CK_ExamRequirement_Duration,([DurationMinutes]>=(15) AND [DurationMinutes]<=(600)),False,False
+dbo,ExamRequirement,CK_ExamRequirement_Equipment,([RequiredEquipment] IS NULL OR isjson([RequiredEquipment])=(1)),False,False
+dbo,Invigilator,CK_Invigilator_Code,([InvigilatorCode] like 'INV-[0-9][0-9][0-9][0-9][0-9][0-9]'),False,False
+dbo,Invigilator,CK_Invigilator_Hours,([MaxDailyHours]>(0) AND [MaxDailyHours]<=(24)),False,False
+dbo,Invigilator,CK_Invigilator_Status,([Status]='INACTIVE' OR [Status]='ACTIVE'),False,False
+dbo,Room,CK_Room_Code,([RoomCode] like 'ROOM-[0-9][0-9][0-9][0-9][0-9][0-9]'),False,False
+dbo,Room,CK_Room_Floor,([Floor]>=(0)),False,False
+dbo,Room,CK_Room_Type,([RoomType]='ACCESSIBLE' OR [RoomType]='LAB' OR [RoomType]='STANDARD'),False,False
+dbo,RoomCapacity,CK_RoomCapacity_Capacity,([Capacity]>(0)),False,False
+dbo,RoomCapacity,CK_RoomCapacity_Dates,([EffectiveTo] IS NULL OR [EffectiveTo]>=[EffectiveFrom]),False,False
+dbo,RoomClosure,CK_RoomClosure_Status,([ClosureStatus]='COMPLETED' OR [ClosureStatus]='CANCELLED' OR [ClosureStatus]='ACTIVE'),False,False
+dbo,RoomClosure,CK_RoomClosure_Time,([ClosureEnd]>[ClosureStart]),False,False
+dbo,RoomEquipment,CK_RoomEquipment_Dates,([EffectiveTo] IS NULL OR [EffectiveTo]>=[EffectiveFrom]),False,False
+dbo,RoomEquipment,CK_RoomEquipment_Quantity,([Quantity]>(0)),False,False
+dbo,ScheduleAssignment,CK_Assignment_Capacity,([AssignedCapacity]>(0)),False,False
+dbo,ScheduleAssignment,CK_Assignment_Status,([AssignmentStatus]='CANCELLED' OR [AssignmentStatus]='CONFIRMED' OR [AssignmentStatus]='PROPOSED'),False,False
+dbo,ScheduleAssignment,CK_Assignment_Time,([EndTime]>[StartTime]),False,False
+dbo,SchedulingException,CK_Exception_JSON,([ExceptionDetails] IS NULL OR isjson([ExceptionDetails])=(1)),False,False
+dbo,SchedulingException,CK_Exception_Reason,([ReasonCode]='OTHER' OR [ReasonCode]='INVALID_REQUIREMENT' OR [ReasonCode]='NO_ELIGIBLE_STUDENTS' OR [ReasonCode]='NO_VALID_TIMESLOT' OR [ReasonCode]='ACCOMMODATION_CONFLICT' OR [ReasonCode]='STUDENT_CONFLICT' OR [ReasonCode]='NO_INVIGILATOR' OR [ReasonCode]='ROOM_CLOSED' OR [ReasonCode]='NO_EQUIPMENT' OR [ReasonCode]='NO_ROOM_CAPACITY'),False,False
+dbo,SchedulingException,CK_Exception_Resolution,([ExceptionStatus]='OPEN' AND [ResolvedAt] IS NULL OR [ExceptionStatus]<>'OPEN' AND [ResolvedAt] IS NOT NULL),False,False
+dbo,SchedulingException,CK_Exception_Severity,([Severity]='CRITICAL' OR [Severity]='HIGH' OR [Severity]='MEDIUM' OR [Severity]='LOW'),False,False
+dbo,SchedulingException,CK_Exception_Status,([ExceptionStatus]='WAIVED' OR [ExceptionStatus]='RESOLVED' OR [ExceptionStatus]='OPEN'),False,False
+dbo,SchedulingRun,CK_SchedulingRun_Config,([Configuration] IS NULL OR isjson([Configuration])=(1)),False,False
+dbo,SchedulingRun,CK_SchedulingRun_Dates,([CompletedAt] IS NULL OR [CompletedAt]>=[StartedAt]),False,False
+dbo,SchedulingRun,CK_SchedulingRun_Status,([RunStatus]='CANCELLED' OR [RunStatus]='FAILED' OR [RunStatus]='COMPLETED' OR [RunStatus]='STARTED'),False,False
+dbo,Student,CK_Student_Code,([StudentCode] like 'STU-[0-9][0-9][0-9][0-9][0-9][0-9]'),False,False
+dbo,Student,CK_Student_Status,([Status]='GRADUATED' OR [Status]='INACTIVE' OR [Status]='ACTIVE'),False,False
+evaluation,GroundTruth,CK_GroundTruth_Outcome,([ExpectedOutcome]='FLAG' OR [ExpectedOutcome]='UNASSIGNED' OR [ExpectedOutcome]='REJECT' OR [ExpectedOutcome]='ACCEPT'),False,False
+evaluation,GroundTruth,CK_GroundTruth_Severity,([Severity]='CRITICAL' OR [Severity]='HIGH' OR [Severity]='MEDIUM' OR [Severity]='LOW'),False,False

@@ -1,0 +1,7 @@
+﻿EquipmentID,EquipmentName,EquipmentCategory,IsActive,CreatedAt
+1,Desktop Computer,COMPUTING,1,2026-01-01 09:00:00
+2,Projector,VISUAL,1,2026-01-01 09:00:00
+3,Laboratory Kit,LABORATORY,1,2026-01-01 09:00:00
+4,Accessible Desk,ACCESSIBILITY,1,2026-01-01 09:00:00
+5,Audio Equipment,AUDIO,1,2026-01-01 09:00:00
+6,Network Equipment,NETWORK,1,2026-01-01 09:00:00

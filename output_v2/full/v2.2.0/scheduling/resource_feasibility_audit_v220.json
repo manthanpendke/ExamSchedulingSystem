@@ -1,0 +1,409 @@
+{
+    "version": "2.2.0",
+    "status": "PASSED",
+    "database_accessed": false,
+    "database_modified": false,
+    "counts": {
+        "rooms": 100,
+        "capacity_records": 100,
+        "closures": 8,
+        "room_equipment_records": 159,
+        "equipment_types": 6,
+        "exam_equipment_requirements": 192,
+        "exam_requirements": 900,
+        "accommodations": 505,
+        "invigilators": 200,
+        "availability_records": 1000,
+        "physical_grid_units": 3600
+    },
+    "accommodation_distribution": {
+        "EXTENDED_TIME": 127,
+        "SPECIAL_EQUIPMENT": 126,
+        "SEPARATE_ROOM": 126,
+        "ACCESSIBLE_ROOM": 126
+    },
+    "active_accommodation_distribution": {
+        "EXTENDED_TIME": 127,
+        "SPECIAL_EQUIPMENT": 126,
+        "SEPARATE_ROOM": 126,
+        "ACCESSIBLE_ROOM": 126
+    },
+    "invigilator_interval_summary": {
+        "2026-11-16|08:00|09:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-16|09:30|11:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-16|11:00|12:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-16|12:30|14:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-16|14:00|15:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-16|15:30|17:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|08:00|09:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|09:30|11:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|11:00|12:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|12:30|14:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|14:00|15:30": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-17|15:30|17:00": {
+            "eligible_invigilators": 166,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|08:00|09:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|09:30|11:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|11:00|12:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 24,
+            "minimum_invigilators_required": 24,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|12:30|14:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|14:00|15:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-18|15:30|17:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|08:00|09:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|09:30|11:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|11:00|12:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|12:30|14:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|14:00|15:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-19|15:30|17:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|08:00|09:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|09:30|11:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|11:00|12:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|12:30|14:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|14:00|15:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-20|15:30|17:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 21,
+            "minimum_invigilators_required": 21,
+            "lower_bound_coverage": true
+        },
+        "2026-11-21|08:00|09:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 75,
+            "minimum_invigilators_required": 75,
+            "lower_bound_coverage": true
+        },
+        "2026-11-21|09:30|11:00": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 75,
+            "minimum_invigilators_required": 75,
+            "lower_bound_coverage": true
+        },
+        "2026-11-21|11:00|12:30": {
+            "eligible_invigilators": 167,
+            "exam_sittings": 75,
+            "minimum_invigilators_required": 75,
+            "lower_bound_coverage": true
+        }
+    },
+    "slot_room_summary": {
+        "2026-11-16|1": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-16|2": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-16|3": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-16|4": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 98,
+            "sum_of_available_room_capacity": 5880
+        },
+        "2026-11-16|5": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 98,
+            "sum_of_available_room_capacity": 5880
+        },
+        "2026-11-16|6": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-17|1": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-17|2": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-17|3": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-17|4": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 98,
+            "sum_of_available_room_capacity": 5860
+        },
+        "2026-11-17|5": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 98,
+            "sum_of_available_room_capacity": 5860
+        },
+        "2026-11-17|6": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-18|1": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-18|2": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-18|3": {
+            "exam_sittings": 24,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-18|4": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5890
+        },
+        "2026-11-18|5": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5890
+        },
+        "2026-11-18|6": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-19|1": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-19|2": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-19|3": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-19|4": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5880
+        },
+        "2026-11-19|5": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5880
+        },
+        "2026-11-19|6": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-20|1": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-20|2": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-20|3": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-20|4": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5860
+        },
+        "2026-11-20|5": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 99,
+            "sum_of_available_room_capacity": 5860
+        },
+        "2026-11-20|6": {
+            "exam_sittings": 21,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-21|1": {
+            "exam_sittings": 75,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-21|2": {
+            "exam_sittings": 75,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        },
+        "2026-11-21|3": {
+            "exam_sittings": 75,
+            "available_rooms_before_batching": 100,
+            "sum_of_available_room_capacity": 5940
+        }
+    },
+    "equipment_gaps": [],
+    "warnings": [],
+    "errors": [],
+    "limitations": [
+        "Room capacity is summarized, not yet allocated to individual exams.",
+        "Equipment quantities are inventory totals, not proof of simultaneous room compatibility.",
+        "Accommodation-to-room placement has not been performed.",
+        "Extended-time room occupancy has not been simulated.",
+        "Invigilator coverage has not been assigned or workload-validated.",
+        "Equipment changeover between course sittings has not been modeled."
+    ]
+}

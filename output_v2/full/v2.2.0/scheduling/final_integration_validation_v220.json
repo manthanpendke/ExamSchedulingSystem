@@ -1,0 +1,44 @@
+{
+  "version": "2.2.0",
+  "validator": "Final Cross-Module Integration Validator",
+  "status": "PASSED_WITH_ACCEPTED_EXCEPTIONS",
+  "checks_executed": 355116,
+  "error_count": 0,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "students": 5000,
+    "courses": 300,
+    "source_exams": 900,
+    "timetable_exams": 900,
+    "timetable_student_allocations": 20000,
+    "room_allocations": 1493,
+    "room_student_allocations": 19947,
+    "room_exceptions": 36,
+    "unassigned_students": 53,
+    "equipment_reservations": 210,
+    "invigilator_assignments": 1493,
+    "invigilator_exceptions": 0
+  },
+  "integration_checks": {
+    "timetable_matches_source_exams": true,
+    "room_allocations_match_timetable": true,
+    "room_students_match_timetable_allocations": true,
+    "room_exceptions_account_for_missing_students": true,
+    "equipment_reservations_reference_valid_entities": true,
+    "invigilator_assignments_match_room_allocations": true,
+    "invigilator_availability_checked": true,
+    "invigilator_double_bookings_checked": true,
+    "independent_reports_reconciled": true
+  },
+  "accepted_limitation": {
+    "unassigned_students": 53,
+    "expected_unassigned_students": 53,
+    "accepted": true
+  },
+  "database_accessed": false,
+  "database_modified": false,
+  "ground_truth_accessed": false,
+  "source_csv_files_modified": false,
+  "validated_at": "2026-11-09 18:05:21"
+}

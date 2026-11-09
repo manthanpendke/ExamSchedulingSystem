@@ -1,0 +1,58 @@
+{
+    "version": "2.2.0",
+    "validator": "Independent timetable validator - extended-time and optional-wave aware",
+    "status": "PASSED",
+    "checks_executed": 395776,
+    "error_count": 0,
+    "errors": [],
+    "counts": {
+        "students": 5000,
+        "tracks": 75,
+        "courses": 300,
+        "exams": 900,
+        "student_allocations": 20000,
+        "track_course_day_assignments": 225,
+        "slot_load_rows": 36
+    },
+    "compulsory_block_course_load": {
+        "1": 23,
+        "2": 22,
+        "3": 23,
+        "4": 22,
+        "5": 23,
+        "6": 22,
+        "7": 23,
+        "8": 22,
+        "9": 23,
+        "10": 22
+    },
+    "extended_time": {
+        "students": 127,
+        "allocations": 508,
+        "overlap_pairs": 0
+    },
+    "optional_exam_slot_load": {
+        "1": 38,
+        "2": 38,
+        "3": 38,
+        "4": 37,
+        "5": 37,
+        "6": 37
+    },
+    "optional_wave_course_counts": {
+        "11": 38,
+        "12": 37
+    },
+    "database_accessed": false,
+    "database_modified": false,
+    "ground_truth_accessed": false,
+    "limitations": [
+        "Validates timetable and student-level effective exam intervals.",
+        "Does not validate physical room batches or capacity.",
+        "Does not validate room closures or effective-dated room capacity.",
+        "Does not validate equipment availability or changeovers.",
+        "Does not allocate or validate invigilators.",
+        "Room-level extended-time occupancy remains pending.",
+        "GroundTruth.csv is not read by this validator."
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "2.2.0",
+  "status": "PASSED_WITH_EXCEPTIONS",
+  "checks": 89363,
+  "errors": 0,
+  "error_samples": [],
+  "counts": {
+    "timetable_exams": 900,
+    "source_student_allocations": 20000,
+    "room_allocations": 1493,
+    "student_room_allocations": 19947,
+    "equipment_reservation_rows": 210,
+    "exceptions": 36,
+    "unassigned_source_allocations": 53
+  },
+  "independent": true,
+  "allocator_imported": false,
+  "database_accessed": false,
+  "database_modified": false,
+  "ground_truth_accessed": false
+}

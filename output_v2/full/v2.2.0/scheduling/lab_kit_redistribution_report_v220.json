@@ -1,0 +1,87 @@
+{
+  "version": "2.2.0",
+  "status": "APPLIED",
+  "equipment": "Laboratory Kit",
+  "equipment_id": 3,
+  "original_total_quantity": 1000,
+  "planned_total_quantity": 1000,
+  "equipped_rooms_before": 10,
+  "equipped_rooms_after": 15,
+  "new_standard_rooms": [
+    {
+      "RoomID": 52,
+      "RoomCode": "ROOM-000052",
+      "RoomType": "STANDARD",
+      "MinimumEffectiveCapacity": 60,
+      "DesktopComputerQuantity": 100
+    },
+    {
+      "RoomID": 64,
+      "RoomCode": "ROOM-000064",
+      "RoomType": "STANDARD",
+      "MinimumEffectiveCapacity": 60,
+      "DesktopComputerQuantity": 100
+    },
+    {
+      "RoomID": 76,
+      "RoomCode": "ROOM-000076",
+      "RoomType": "STANDARD",
+      "MinimumEffectiveCapacity": 60,
+      "DesktopComputerQuantity": 100
+    },
+    {
+      "RoomID": 88,
+      "RoomCode": "ROOM-000088",
+      "RoomType": "STANDARD",
+      "MinimumEffectiveCapacity": 60,
+      "DesktopComputerQuantity": 100
+    }
+  ],
+  "new_accessible_rooms": [
+    {
+      "RoomID": 60,
+      "RoomCode": "ROOM-000060",
+      "RoomType": "ACCESSIBLE",
+      "MinimumEffectiveCapacity": 100,
+      "DesktopComputerQuantity": 100,
+      "AccessibleDeskQuantity": 20
+    }
+  ],
+  "quantity_by_room": {
+    "5": 67,
+    "15": 67,
+    "25": 67,
+    "35": 67,
+    "45": 67,
+    "52": 66,
+    "55": 67,
+    "60": 66,
+    "64": 66,
+    "65": 67,
+    "75": 67,
+    "76": 66,
+    "85": 67,
+    "88": 66,
+    "95": 67
+  },
+  "lab_exam_sittings_checked": 60,
+  "lab_exam_dates_checked": [
+    "2026-11-17",
+    "2026-11-21"
+  ],
+  "only_room_equipment_csv_modified": true,
+  "room_types_capacities_closures_timetable_students_unchanged": true,
+  "non_lab_equipment_unchanged": true,
+  "database_accessed": false,
+  "database_modified": false,
+  "ground_truth_accessed": false,
+  "backup_file": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomEquipment.backup_before_lab_redistribution_20261109_144804.csv",
+  "notes": [
+    "Only RoomEquipment.csv is changed when --apply is supplied.",
+    "Total Laboratory Kit quantity remains exactly 1,000.",
+    "Four STANDARD rooms and one ACCESSIBLE room are added.",
+    "The accessible target already has Desktop Computer and Accessible Desk stock.",
+    "Rerun room_allocator_v220.py and independent_room_allocation_validator_v220.py afterward.",
+    "This redistribution does not itself guarantee 20,000 room assignments."
+  ]
+}

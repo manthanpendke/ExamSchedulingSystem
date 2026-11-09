@@ -1,0 +1,38 @@
+{
+  "Version": "2.2.0",
+  "Operation": "Optional two-wave timetable application",
+  "Status": "APPLIED",
+  "ExamDate": "2026-11-21",
+  "MorningCourses": 38,
+  "AfternoonCourses": 37,
+  "OptionalExamSittingsUpdated": 225,
+  "StudentAllocationsUpdated": 5000,
+  "TotalTimetableRows": 900,
+  "TotalStudentAllocations": 20000,
+  "TotalStudents": 5000,
+  "OccupiedSlots": 36,
+  "EffectiveIntervalOverlaps": 0,
+  "Day6OptionalSlotCounts": {
+    "1": 38,
+    "2": 38,
+    "3": 38,
+    "4": 37,
+    "5": 37,
+    "6": 37
+  },
+  "ModifiedFiles": {
+    "timetable": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\ExamTimetable.csv",
+    "allocations": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\TimetableStudentAllocation.csv",
+    "optional_blocks": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\OptionalCourseBlockAllocation.csv",
+    "slot_load": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\SlotLoad.csv"
+  },
+  "Backups": {
+    "timetable": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\ExamTimetable.backup_20261109_133244.csv",
+    "allocations": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\TimetableStudentAllocation.backup_20261109_133244.csv",
+    "optional_blocks": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\OptionalCourseBlockAllocation.backup_20261109_133244.csv",
+    "slot_load": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\SlotLoad.backup_20261109_133244.csv"
+  },
+  "CompulsoryExamsModified": false,
+  "SQLServer": "NOT ACCESSED OR MODIFIED",
+  "IndependentValidation": "PENDING"
+}

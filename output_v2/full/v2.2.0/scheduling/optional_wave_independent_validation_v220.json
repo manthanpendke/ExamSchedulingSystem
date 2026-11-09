@@ -1,0 +1,26 @@
+{
+  "Version": "2.2.0",
+  "Validation": "Independent optional two-wave timetable validation",
+  "ChecksExecuted": 202637,
+  "Errors": [],
+  "ErrorCount": 0,
+  "EffectiveStudentIntervalOverlaps": 0,
+  "TimetableRows": 900,
+  "StudentAllocationRows": 20000,
+  "UniqueStudents": 5000,
+  "OptionalCourses": 75,
+  "OptionalExamSittings": 225,
+  "OptionalStudentAllocations": 5000,
+  "OccupiedSlots": 36,
+  "Day6OptionalCounts": {
+    "4": 37,
+    "5": 37,
+    "6": 37,
+    "1": 38,
+    "2": 38,
+    "3": 38
+  },
+  "CompulsoryTimetableUnchanged": true,
+  "Status": "PASSED",
+  "SQLServer": "NOT ACCESSED OR MODIFIED"
+}

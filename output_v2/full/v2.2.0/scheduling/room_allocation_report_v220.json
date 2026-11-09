@@ -1,0 +1,45 @@
+{
+  "version": "2.2.0",
+  "status": "COMPLETED_WITH_EXCEPTIONS",
+  "algorithm": "Fixed timetable; best-fit room batching; student-level accommodations; course-window equipment reservations; soft specialist-room protection",
+  "room_selection_policy": {
+    "type": "SOFT_PREFERENCE",
+    "specialist_equipment_threshold": "equipment available in 40% or fewer of active rooms",
+    "policy": "Prefer rooms without scarce equipment unless the exam requires it. Prefer LAB and ACCESSIBLE room types for matching requirements. Specialist rooms remain eligible when needed.",
+    "hard_constraints_unchanged": true
+  },
+  "equipment_reservation_policy": {
+    "scope": "shared physical inventory pool",
+    "window": "first course sitting start through final sitting effective end",
+    "quantity": "peak required quantity across the course's three sittings",
+    "room_policy": "Different rooms allowed between sittings; each assigned room must contain required equipment locally.",
+    "release": "after reservation end"
+  },
+  "counts": {
+    "timetable_exams": 900,
+    "student_timetable_allocations": 20000,
+    "rooms": 100,
+    "room_allocations": 1493,
+    "student_room_allocations": 19947,
+    "equipment_reservation_rows": 210,
+    "exceptions": 36,
+    "unassigned_students": 53,
+    "fully_allocated_exams": 864
+  },
+  "exception_reason_counts": {
+    "ACCOMMODATION_CONFLICT": 24,
+    "NO_EQUIPMENT": 12
+  },
+  "course_equipment_reservation_rejections": {},
+  "database_accessed": false,
+  "database_modified": false,
+  "ground_truth_accessed": false,
+  "timetable_modified": false,
+  "notes": [
+    "Course equipment reservation is a shared-inventory hold, not a physical transfer of equipment between rooms.",
+    "Room-local equipment is independently checked for every assigned room.",
+    "Separate-room students are assigned one per room.",
+    "Invigilator assignment is a later phase.",
+    "Any exception means the affected student(s) or sitting is not fully assigned."
+  ]
+}

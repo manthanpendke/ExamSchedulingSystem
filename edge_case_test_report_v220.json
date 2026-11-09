@@ -1,0 +1,85 @@
+{
+  "suite": "EXAM_SCHEDULING_SYSTEM_V220_EDGE_CASES",
+  "status": "PASSED",
+  "passed": 6,
+  "total": 6,
+  "tests": [
+    {
+      "scenario": "Positive control: valid room allocation",
+      "validator": "independent_room_allocation_validator_v220.py",
+      "detected": true,
+      "expected_result": "PASSED",
+      "validator_status": "PASSED",
+      "error_samples": [],
+      "return_code": 0
+    },
+    {
+      "scenario": "Student overlapping examinations",
+      "validator": "independent_room_allocation_validator_v220.py",
+      "detected": true,
+      "allocator_preflight_detected": true,
+      "allocator_preflight_message": "Input preflight failed:\n - STUDENT CONFLICT: student 501 has overlapping effective exam intervals for exams 1 and 2.",
+      "validator_status": "FAILED",
+      "expected_error": "student conflict",
+      "error_samples": [
+        "STUDENT CONFLICT: student 501 has overlapping effective exam intervals for exams 1 and 2."
+      ],
+      "return_code": 1
+    },
+    {
+      "scenario": "Room capacity exceeded",
+      "validator": "independent_room_allocation_validator_v220.py",
+      "detected": true,
+      "allocator_preflight_detected": null,
+      "allocator_preflight_message": "",
+      "validator_status": "FAILED",
+      "expected_error": "capacity",
+      "error_samples": [
+        "Room 11 exam 1: 2 students exceed capacity 1."
+      ],
+      "return_code": 1
+    },
+    {
+      "scenario": "Accessible accommodation ignored",
+      "validator": "independent_room_allocation_validator_v220.py",
+      "detected": true,
+      "allocator_preflight_detected": null,
+      "allocator_preflight_message": "",
+      "validator_status": "FAILED",
+      "expected_error": "accessible student assigned",
+      "error_samples": [
+        "Accessible student assigned to non-accessible room 11, exam 1."
+      ],
+      "return_code": 1
+    },
+    {
+      "scenario": "Exam during room closure",
+      "validator": "independent_room_allocation_validator_v220.py",
+      "detected": true,
+      "allocator_preflight_detected": null,
+      "allocator_preflight_message": "",
+      "validator_status": "FAILED",
+      "expected_error": "overlaps active closure",
+      "error_samples": [
+        "Room 11 exam 1 overlaps active closure 1."
+      ],
+      "return_code": 1
+    },
+    {
+      "scenario": "Invigilator double-booked",
+      "validator": "independent_invigilator_validator_v220.py",
+      "detected": true,
+      "validator_status": "FAILED",
+      "expected_error": "double-booking",
+      "error_samples": [
+        "INVIGILATOR DOUBLE-BOOKING: 7, 2026-11-16, RoomAllocationIDs 1 and 2"
+      ],
+      "return_code": 1
+    }
+  ],
+  "production_data_accessed": false,
+  "sql_server_accessed": false,
+  "sql_server_modified": false,
+  "groundtruth_accessed": false,
+  "temporary_fixture_root": "TemporaryDirectory (automatically removed)"
+}

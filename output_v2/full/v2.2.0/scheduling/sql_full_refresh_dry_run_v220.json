@@ -1,0 +1,717 @@
+{
+  "report_name": "v2.2.0 SQL Full Refresh Dry-Run",
+  "generated_at": "2026-11-09T16:16:15",
+  "database": "ExamSchedulingDB",
+  "server": "Manthan\\SQLEXPRESS",
+  "operation_mode": "READ_ONLY_DRY_RUN",
+  "sql_data_rows_read": false,
+  "sql_data_modified": false,
+  "ddl_modified": false,
+  "groundtruth_accessed": false,
+  "evaluation_schema_queried": false,
+  "source_csv_modified": false,
+  "strategy": "REPLACE_ALL_DBO_DATA_WITH_V2.2.0",
+  "existing_dbo_row_counts": {
+    "Accommodation": 505,
+    "AssignmentEvent": 0,
+    "AssignmentInvigilator": 0,
+    "AssignmentStudent": 0,
+    "Availability": 1000,
+    "Course": 100,
+    "Enrollment": 19926,
+    "Equipment": 6,
+    "Exam": 300,
+    "ExamEnrollment": 19926,
+    "ExamRequiredEquipment": 135,
+    "ExamRequirement": 300,
+    "Invigilator": 200,
+    "Room": 100,
+    "RoomCapacity": 100,
+    "RoomClosure": 8,
+    "RoomEquipment": 270,
+    "ScheduleAssignment": 0,
+    "SchedulingException": 0,
+    "SchedulingRun": 0,
+    "Student": 5000
+  },
+  "proposed_delete_counts": {
+    "Accommodation": 505,
+    "AssignmentEvent": 0,
+    "AssignmentInvigilator": 0,
+    "AssignmentStudent": 0,
+    "Availability": 1000,
+    "Course": 100,
+    "Enrollment": 19926,
+    "Equipment": 6,
+    "Exam": 300,
+    "ExamEnrollment": 19926,
+    "ExamRequiredEquipment": 135,
+    "ExamRequirement": 300,
+    "Invigilator": 200,
+    "Room": 100,
+    "RoomCapacity": 100,
+    "RoomClosure": 8,
+    "RoomEquipment": 270,
+    "ScheduleAssignment": 0,
+    "SchedulingException": 0,
+    "SchedulingRun": 0,
+    "Student": 5000
+  },
+  "proposed_insert_counts": {
+    "Accommodation": 505,
+    "AssignmentEvent": 0,
+    "AssignmentInvigilator": 1493,
+    "AssignmentStudent": 19947,
+    "Availability": 1000,
+    "Course": 300,
+    "Enrollment": 20000,
+    "Equipment": 6,
+    "Exam": 900,
+    "ExamEnrollment": 20000,
+    "ExamRequiredEquipment": 192,
+    "ExamRequirement": 900,
+    "Invigilator": 200,
+    "Room": 100,
+    "RoomCapacity": 100,
+    "RoomClosure": 8,
+    "RoomEquipment": 192,
+    "ScheduleAssignment": 1493,
+    "SchedulingException": 36,
+    "SchedulingRun": 1,
+    "Student": 5000
+  },
+  "source_files": {
+    "dbo.Student": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Student.csv",
+      "exists": true,
+      "rows": 5000,
+      "columns": [
+        "StudentID",
+        "StudentCode",
+        "FirstName",
+        "LastName",
+        "Email",
+        "Department",
+        "Status",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.Course": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Course.csv",
+      "exists": true,
+      "rows": 300,
+      "columns": [
+        "CourseID",
+        "CourseCode",
+        "CourseName",
+        "Department",
+        "Credits",
+        "Status",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.Equipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Equipment.csv",
+      "exists": true,
+      "rows": 6,
+      "columns": [
+        "EquipmentID",
+        "EquipmentName",
+        "EquipmentCategory",
+        "IsActive",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.Room": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Room.csv",
+      "exists": true,
+      "rows": 100,
+      "columns": [
+        "RoomID",
+        "RoomCode",
+        "Building",
+        "Floor",
+        "RoomType",
+        "IsActive",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.Invigilator": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Invigilator.csv",
+      "exists": true,
+      "rows": 200,
+      "columns": [
+        "InvigilatorID",
+        "InvigilatorCode",
+        "FullName",
+        "Department",
+        "MaxDailyHours",
+        "Status",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.Enrollment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Enrollment.csv",
+      "exists": true,
+      "rows": 20000,
+      "columns": [
+        "EnrollmentID",
+        "StudentID",
+        "CourseID",
+        "EnrollmentDate",
+        "EnrollmentStatus",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.Exam": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Exam.csv",
+      "exists": true,
+      "rows": 900,
+      "columns": [
+        "ExamID",
+        "ExamCode",
+        "CourseID",
+        "ExamName",
+        "ExamWindowStart",
+        "ExamWindowEnd",
+        "ExamStatus",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null,
+      "duplicate_natural_keys": 0
+    },
+    "dbo.RoomCapacity": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomCapacity.csv",
+      "exists": true,
+      "rows": 100,
+      "columns": [
+        "RoomCapacityID",
+        "RoomID",
+        "Capacity",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "CapacityReason",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.RoomClosure": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomClosure.csv",
+      "exists": true,
+      "rows": 8,
+      "columns": [
+        "RoomClosureID",
+        "RoomID",
+        "ClosureStart",
+        "ClosureEnd",
+        "ClosureReason",
+        "ClosureStatus",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.RoomEquipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\RoomEquipment.csv",
+      "exists": true,
+      "rows": 192,
+      "columns": [
+        "RoomEquipmentID",
+        "RoomID",
+        "EquipmentID",
+        "Quantity",
+        "EffectiveFrom",
+        "EffectiveTo"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.Availability": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Availability.csv",
+      "exists": true,
+      "rows": 1000,
+      "columns": [
+        "AvailabilityID",
+        "InvigilatorID",
+        "AvailableFrom",
+        "AvailableTo",
+        "AvailabilityStatus",
+        "AvailabilityReason",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.Accommodation": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\Accommodation.csv",
+      "exists": true,
+      "rows": 505,
+      "columns": [
+        "AccommodationID",
+        "StudentID",
+        "AccommodationType",
+        "ExtensionPercentage",
+        "RequiresSeparateRoom",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "AccommodationStatus",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.ExamRequirement": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\ExamRequirement.csv",
+      "exists": true,
+      "rows": 900,
+      "columns": [
+        "RequirementID",
+        "ExamID",
+        "DurationMinutes",
+        "RequiredEquipment",
+        "AccessibilityRequired",
+        "SpecialInstructions",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.ExamRequiredEquipment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\ExamRequiredEquipment.csv",
+      "exists": true,
+      "rows": 192,
+      "columns": [
+        "ExamRequiredEquipmentID",
+        "ExamID",
+        "EquipmentID",
+        "QuantityRequired",
+        "IsMandatory"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.ExamEnrollment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\ExamEnrollment.csv",
+      "exists": true,
+      "rows": 20000,
+      "columns": [
+        "ExamEnrollmentID",
+        "ExamID",
+        "EnrollmentID",
+        "CourseID",
+        "ParticipationStatus",
+        "RegisteredAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.ScheduleAssignment": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\RoomAllocation.csv",
+      "exists": true,
+      "rows": 1493,
+      "columns": [
+        "RoomAllocationID",
+        "ExamID",
+        "CourseID",
+        "RoomID",
+        "RoomCode",
+        "GroupType",
+        "StartDateTime",
+        "EndDateTime",
+        "AssignedCapacity",
+        "AllocatedStudentCount",
+        "EquipmentRequirementsJSON",
+        "StudentIDsJSON"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.AssignmentStudent": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\RoomStudentAllocation.csv",
+      "exists": true,
+      "rows": 19947,
+      "columns": [
+        "EnrollmentID",
+        "StudentID",
+        "CourseID",
+        "ExamID",
+        "RoomID",
+        "StartDateTime",
+        "StudentEffectiveEndDateTime",
+        "EffectiveDurationMinutes",
+        "HasExtendedTime",
+        "RequiresSeparateRoom",
+        "RequiresAccessibleRoom",
+        "SpecialEquipmentJSON"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.AssignmentInvigilator": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\InvigilatorAssignment.csv",
+      "exists": true,
+      "rows": 1493,
+      "columns": [
+        "AssignmentID",
+        "RoomAllocationID",
+        "ExamID",
+        "CourseID",
+        "RoomID",
+        "InvigilatorID",
+        "InvigilatorCode",
+        "InvigilatorName",
+        "AvailabilityID",
+        "StartDateTime",
+        "EndDateTime",
+        "ExamDate",
+        "DutyMinutes",
+        "DutyHours",
+        "AssignmentStatus",
+        "CreatedAt"
+      ],
+      "duplicate_key_count": null
+    },
+    "dbo.SchedulingException": {
+      "path": "E:\\ExamSchedulingSystem\\output_v2\\full\\v2.2.0\\scheduling\\RoomAllocationExceptions.csv",
+      "exists": true,
+      "rows": 36,
+      "columns": [
+        "ExamID",
+        "ExamCode",
+        "CourseID",
+        "ReasonCode",
+        "UnassignedStudentCount",
+        "Details"
+      ],
+      "duplicate_key_count": null
+    }
+  },
+  "foreign_keys": [
+    {
+      "constraint": "FK_Accommodation_Student",
+      "parent_table": "Student",
+      "parent_column": "StudentID",
+      "child_table": "Accommodation",
+      "child_column": "StudentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentEvent_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "AssignmentID",
+      "child_table": "AssignmentEvent",
+      "child_column": "AssignmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentInvigilator_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "AssignmentID",
+      "child_table": "AssignmentInvigilator",
+      "child_column": "AssignmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentInvigilator_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "ExamID",
+      "child_table": "AssignmentInvigilator",
+      "child_column": "ExamID",
+      "column_ordinal": 2
+    },
+    {
+      "constraint": "FK_AssignmentInvigilator_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "SchedulingRunID",
+      "child_table": "AssignmentInvigilator",
+      "child_column": "SchedulingRunID",
+      "column_ordinal": 3
+    },
+    {
+      "constraint": "FK_AssignmentInvigilator_Invigilator",
+      "parent_table": "Invigilator",
+      "parent_column": "InvigilatorID",
+      "child_table": "AssignmentInvigilator",
+      "child_column": "InvigilatorID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentStudent_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "AssignmentID",
+      "child_table": "AssignmentStudent",
+      "child_column": "AssignmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentStudent_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "ExamID",
+      "child_table": "AssignmentStudent",
+      "child_column": "ExamID",
+      "column_ordinal": 2
+    },
+    {
+      "constraint": "FK_AssignmentStudent_Assignment",
+      "parent_table": "ScheduleAssignment",
+      "parent_column": "SchedulingRunID",
+      "child_table": "AssignmentStudent",
+      "child_column": "SchedulingRunID",
+      "column_ordinal": 3
+    },
+    {
+      "constraint": "FK_AssignmentStudent_ExamEnrollment",
+      "parent_table": "ExamEnrollment",
+      "parent_column": "ExamEnrollmentID",
+      "child_table": "AssignmentStudent",
+      "child_column": "ExamEnrollmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_AssignmentStudent_ExamEnrollment",
+      "parent_table": "ExamEnrollment",
+      "parent_column": "ExamID",
+      "child_table": "AssignmentStudent",
+      "child_column": "ExamID",
+      "column_ordinal": 2
+    },
+    {
+      "constraint": "FK_Availability_Invigilator",
+      "parent_table": "Invigilator",
+      "parent_column": "InvigilatorID",
+      "child_table": "Availability",
+      "child_column": "InvigilatorID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Enrollment_Course",
+      "parent_table": "Course",
+      "parent_column": "CourseID",
+      "child_table": "Enrollment",
+      "child_column": "CourseID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Enrollment_Student",
+      "parent_table": "Student",
+      "parent_column": "StudentID",
+      "child_table": "Enrollment",
+      "child_column": "StudentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Exam_Course",
+      "parent_table": "Course",
+      "parent_column": "CourseID",
+      "child_table": "Exam",
+      "child_column": "CourseID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_ExamEnrollment_EnrollmentCourse",
+      "parent_table": "Enrollment",
+      "parent_column": "EnrollmentID",
+      "child_table": "ExamEnrollment",
+      "child_column": "EnrollmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_ExamEnrollment_EnrollmentCourse",
+      "parent_table": "Enrollment",
+      "parent_column": "CourseID",
+      "child_table": "ExamEnrollment",
+      "child_column": "CourseID",
+      "column_ordinal": 2
+    },
+    {
+      "constraint": "FK_ExamEnrollment_ExamCourse",
+      "parent_table": "Exam",
+      "parent_column": "ExamID",
+      "child_table": "ExamEnrollment",
+      "child_column": "ExamID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_ExamEnrollment_ExamCourse",
+      "parent_table": "Exam",
+      "parent_column": "CourseID",
+      "child_table": "ExamEnrollment",
+      "child_column": "CourseID",
+      "column_ordinal": 2
+    },
+    {
+      "constraint": "FK_ExamEquipment_Equipment",
+      "parent_table": "Equipment",
+      "parent_column": "EquipmentID",
+      "child_table": "ExamRequiredEquipment",
+      "child_column": "EquipmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_ExamEquipment_Exam",
+      "parent_table": "Exam",
+      "parent_column": "ExamID",
+      "child_table": "ExamRequiredEquipment",
+      "child_column": "ExamID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_ExamRequirement_Exam",
+      "parent_table": "Exam",
+      "parent_column": "ExamID",
+      "child_table": "ExamRequirement",
+      "child_column": "ExamID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_RoomCapacity_Room",
+      "parent_table": "Room",
+      "parent_column": "RoomID",
+      "child_table": "RoomCapacity",
+      "child_column": "RoomID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_RoomClosure_Room",
+      "parent_table": "Room",
+      "parent_column": "RoomID",
+      "child_table": "RoomClosure",
+      "child_column": "RoomID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_RoomEquipment_Equipment",
+      "parent_table": "Equipment",
+      "parent_column": "EquipmentID",
+      "child_table": "RoomEquipment",
+      "child_column": "EquipmentID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_RoomEquipment_Room",
+      "parent_table": "Room",
+      "parent_column": "RoomID",
+      "child_table": "RoomEquipment",
+      "child_column": "RoomID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Assignment_Exam",
+      "parent_table": "Exam",
+      "parent_column": "ExamID",
+      "child_table": "ScheduleAssignment",
+      "child_column": "ExamID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Assignment_Room",
+      "parent_table": "Room",
+      "parent_column": "RoomID",
+      "child_table": "ScheduleAssignment",
+      "child_column": "RoomID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Assignment_SchedulingRun",
+      "parent_table": "SchedulingRun",
+      "parent_column": "SchedulingRunID",
+      "child_table": "ScheduleAssignment",
+      "child_column": "SchedulingRunID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Exception_Exam",
+      "parent_table": "Exam",
+      "parent_column": "ExamID",
+      "child_table": "SchedulingException",
+      "child_column": "ExamID",
+      "column_ordinal": 1
+    },
+    {
+      "constraint": "FK_Exception_Run",
+      "parent_table": "SchedulingRun",
+      "parent_column": "SchedulingRunID",
+      "child_table": "SchedulingException",
+      "child_column": "SchedulingRunID",
+      "column_ordinal": 1
+    }
+  ],
+  "insert_order_parent_first": [
+    "Course",
+    "Equipment",
+    "Invigilator",
+    "Room",
+    "SchedulingRun",
+    "Student",
+    "Exam",
+    "Availability",
+    "RoomCapacity",
+    "RoomClosure",
+    "RoomEquipment",
+    "Accommodation",
+    "Enrollment",
+    "ExamRequiredEquipment",
+    "ExamRequirement",
+    "ScheduleAssignment",
+    "SchedulingException",
+    "ExamEnrollment",
+    "AssignmentEvent",
+    "AssignmentInvigilator",
+    "AssignmentStudent"
+  ],
+  "delete_order_child_first": [
+    "AssignmentStudent",
+    "AssignmentInvigilator",
+    "AssignmentEvent",
+    "ExamEnrollment",
+    "SchedulingException",
+    "ScheduleAssignment",
+    "ExamRequirement",
+    "ExamRequiredEquipment",
+    "Enrollment",
+    "Accommodation",
+    "RoomEquipment",
+    "RoomClosure",
+    "RoomCapacity",
+    "Availability",
+    "Exam",
+    "Student",
+    "SchedulingRun",
+    "Room",
+    "Invigilator",
+    "Equipment",
+    "Course"
+  ],
+  "triggers": [
+    {
+      "table": "AssignmentInvigilator",
+      "name": "TR_AssignmentInvigilator_NoOverlap",
+      "disabled": false
+    },
+    {
+      "table": "AssignmentStudent",
+      "name": "TR_AssignmentStudent_NoOverlap",
+      "disabled": false
+    },
+    {
+      "table": "ScheduleAssignment",
+      "name": "TR_ScheduleAssignment_RoomOverlap",
+      "disabled": false
+    }
+  ],
+  "issues": [],
+  "ready_for_import_script_generation": true,
+  "important_mapping_notes": [
+    "CSV identity IDs must be remapped; do not assume they equal SQL identity IDs.",
+    "Equipment.EquipmentCode is computed and must not be inserted.",
+    "AssignmentEvent receives zero rows; no event history is fabricated.",
+    "RoomAllocationExceptions is the approved source for room allocation exceptions.",
+    "AssignmentStudent seat numbers must be generated deterministically during import.",
+    "RoomEquipmentReservation and timetable-only metadata are not dbo destinations.",
+    "GroundTruth and evaluation schema are never accessed."
+  ]
+}

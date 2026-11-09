@@ -1,0 +1,312 @@
+{
+  "report_name": "SQL Integration Preflight v2.2.0",
+  "generated_at": "2026-11-09T16:10:51",
+  "database": "ExamSchedulingDB",
+  "operation_mode": "READ_ONLY_ROW_COUNT_AND_CSV_PREFLIGHT",
+  "sql_data_values_read": false,
+  "sql_data_modified": false,
+  "groundtruth_accessed": false,
+  "evaluation_schema_queried": false,
+  "source_csv_modified": false,
+  "approved_source_files": [
+    {
+      "path": "Student.csv",
+      "rows": 5000,
+      "headers": [
+        "StudentID",
+        "StudentCode",
+        "FirstName",
+        "LastName",
+        "Email",
+        "Department",
+        "Status",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "StudentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 5000,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Course.csv",
+      "rows": 300,
+      "headers": [
+        "CourseID",
+        "CourseCode",
+        "CourseName",
+        "Department",
+        "Credits",
+        "Status",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "CourseID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 300,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Equipment.csv",
+      "rows": 6,
+      "headers": [
+        "EquipmentID",
+        "EquipmentName",
+        "EquipmentCategory",
+        "IsActive",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "EquipmentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 6,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Room.csv",
+      "rows": 100,
+      "headers": [
+        "RoomID",
+        "RoomCode",
+        "Building",
+        "Floor",
+        "RoomType",
+        "IsActive",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "RoomID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 100,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Invigilator.csv",
+      "rows": 200,
+      "headers": [
+        "InvigilatorID",
+        "InvigilatorCode",
+        "FullName",
+        "Department",
+        "MaxDailyHours",
+        "Status",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "InvigilatorID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 200,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Enrollment.csv",
+      "rows": 20000,
+      "headers": [
+        "EnrollmentID",
+        "StudentID",
+        "CourseID",
+        "EnrollmentDate",
+        "EnrollmentStatus",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "EnrollmentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 20000,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Exam.csv",
+      "rows": 900,
+      "headers": [
+        "ExamID",
+        "ExamCode",
+        "CourseID",
+        "ExamName",
+        "ExamWindowStart",
+        "ExamWindowEnd",
+        "ExamStatus",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "ExamID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 900,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "RoomCapacity.csv",
+      "rows": 100,
+      "headers": [
+        "RoomCapacityID",
+        "RoomID",
+        "Capacity",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "CapacityReason",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "RoomCapacityID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 100,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "RoomClosure.csv",
+      "rows": 8,
+      "headers": [
+        "RoomClosureID",
+        "RoomID",
+        "ClosureStart",
+        "ClosureEnd",
+        "ClosureReason",
+        "ClosureStatus",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "RoomClosureID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 8,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "RoomEquipment.csv",
+      "rows": 192,
+      "headers": [
+        "RoomEquipmentID",
+        "RoomID",
+        "EquipmentID",
+        "Quantity",
+        "EffectiveFrom",
+        "EffectiveTo"
+      ],
+      "candidate_id_column": "RoomEquipmentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 192,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Availability.csv",
+      "rows": 1000,
+      "headers": [
+        "AvailabilityID",
+        "InvigilatorID",
+        "AvailableFrom",
+        "AvailableTo",
+        "AvailabilityStatus",
+        "AvailabilityReason",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "AvailabilityID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 1000,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "Accommodation.csv",
+      "rows": 505,
+      "headers": [
+        "AccommodationID",
+        "StudentID",
+        "AccommodationType",
+        "ExtensionPercentage",
+        "RequiresSeparateRoom",
+        "EffectiveFrom",
+        "EffectiveTo",
+        "AccommodationStatus",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "AccommodationID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 505,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "ExamRequirement.csv",
+      "rows": 900,
+      "headers": [
+        "RequirementID",
+        "ExamID",
+        "DurationMinutes",
+        "RequiredEquipment",
+        "AccessibilityRequired",
+        "SpecialInstructions",
+        "CreatedAt"
+      ],
+      "candidate_id_column": "RequirementID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 900,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "ExamRequiredEquipment.csv",
+      "rows": 192,
+      "headers": [
+        "ExamRequiredEquipmentID",
+        "ExamID",
+        "EquipmentID",
+        "QuantityRequired",
+        "IsMandatory"
+      ],
+      "candidate_id_column": "ExamRequiredEquipmentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 192,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    },
+    {
+      "path": "ExamEnrollment.csv",
+      "rows": 20000,
+      "headers": [
+        "ExamEnrollmentID",
+        "ExamID",
+        "EnrollmentID",
+        "CourseID",
+        "ParticipationStatus",
+        "RegisteredAt"
+      ],
+      "candidate_id_column": "ExamEnrollmentID",
+      "candidate_id_min": 1,
+      "candidate_id_max": 20000,
+      "duplicate_candidate_ids": 0,
+      "blank_rows": 0
+    }
+  ],
+  "sql_dbo_row_counts": {
+    "Student": 5000,
+    "Course": 100,
+    "Equipment": 6,
+    "Room": 100,
+    "Invigilator": 200,
+    "Enrollment": 19926,
+    "Exam": 300,
+    "RoomCapacity": 100,
+    "RoomClosure": 8,
+    "RoomEquipment": 270,
+    "Availability": 1000,
+    "Accommodation": 505,
+    "ExamRequirement": 300,
+    "ExamRequiredEquipment": 135,
+    "ExamEnrollment": 19926,
+    "SchedulingRun": 0,
+    "ScheduleAssignment": 0,
+    "AssignmentStudent": 0,
+    "AssignmentInvigilator": 0,
+    "SchedulingException": 0,
+    "AssignmentEvent": 0
+  },
+  "total_approved_source_rows": 49403,
+  "warnings": [
+    "This is a preflight only; it does not import data.",
+    "Identity and foreign-key mapping must be resolved before any write.",
+    "Existing SQL records are preserved; no table is cleared or recreated.",
+    "GroundTruth and evaluation schema are excluded."
+  ]
+}

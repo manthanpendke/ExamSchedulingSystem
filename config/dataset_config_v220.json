@@ -1,0 +1,168 @@
+
+{
+  "project": {
+    "name": "ExamSchedulingSystem",
+    "version": "2.2.0",
+    "random_seed": 20261109,
+    "description": "Exam scheduling system with 75 tracks, 300 courses, physical room allocation and independent validation"
+  },
+  "paths": {
+    "output_root": "output_v2/full/v2.2.0",
+    "dataset_directory": "dataset",
+    "reports_directory": "reports",
+    "fixtures_directory": "fixtures",
+    "logs_directory": "logs"
+  },
+  "dataset": {
+    "students": 5000,
+    "tracks": 75,
+    "courses": 300,
+    "compulsory_courses": 225,
+    "optional_courses": 75,
+    "exams_per_course": 3,
+    "total_exam_sittings": 900,
+    "total_enrollments": 20000
+  },
+  "track_rules": {
+    "students_per_track_min": 60,
+    "students_per_track_max": 70,
+    "balanced_distribution": {
+      "tracks_with_67_students": 50,
+      "tracks_with_66_students": 25
+    },
+    "compulsory_courses_per_track": 3,
+    "optional_courses_per_student": 1,
+    "total_courses_per_student": 4,
+    "compulsory_course_id_start": 1,
+    "compulsory_course_id_end": 225,
+    "optional_course_id_start": 226,
+    "optional_course_id_end": 300,
+    "unique_compulsory_course_assignment": true,
+    "optional_pool_is_global": true,
+    "optional_assignment_strategy": "balanced_round_robin"
+  },
+  "exam_rules": {
+    "sittings_per_course": 3,
+    "each_student_must_have_one_sitting_per_enrollment": true,
+    "student_exam_overlap_allowed": false,
+    "same_course_sittings_must_use_distinct_slots": true,
+    "prefer_same_day": true,
+    "prefer_consecutive_slots": true,
+    "allow_two_consecutive_days": true,
+    "maximum_days_for_course_sittings": 2
+  },
+  "calendar": {
+    "start_date": "2026-11-16",
+    "number_of_days": 6,
+    "days": [
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21"
+    ],
+    "slots_per_day": 6,
+    "total_slots": 36,
+    "slot_duration_minutes": 90,
+    "slot_start_times": [
+      "08:00",
+      "09:30",
+      "11:00",
+      "12:30",
+      "14:00",
+      "15:30"
+    ],
+    "time_zone": "Asia/Kolkata"
+  },
+  "physical_infrastructure": {
+    "rooms": 100,
+    "days": 6,
+    "slots_per_day": 6,
+    "total_room_slot_units": 3600,
+    "grid_is_immutable": true,
+    "grid_dimensions": {
+      "rooms": 100,
+      "days": 6,
+      "slots": 6
+    },
+    "room_allocation_required": true,
+    "room_reuse_after_standard_exam": true,
+    "room_reuse_requires_zero_remaining_occupancy": true
+  },
+  "room_rules": {
+    "capacity_must_not_be_exceeded": true,
+    "effective_dated_capacity_required": true,
+    "room_closures_are_hard_constraints": true,
+    "equipment_compatibility_is_hard_constraint": true,
+    "accessibility_is_hard_constraint": true,
+    "one_primary_invigilator_per_occupied_room": true,
+    "multiple_batches_per_exam_allowed": true,
+    "physical_occupancy_must_be_valid_for_entire_occupancy_interval": true
+  },
+  "duration_rules": {
+    "standard_duration_minutes": 90,
+    "extended_duration_minutes": 120,
+    "extended_time_percentage": 33.3333333333,
+    "extended_time_is_student_specific": true,
+    "extended_candidates_must_not_be_interrupted": true,
+    "standard_seats_may_be_reused_after_90_minutes": true,
+    "room_reuse_requires_separate_occupancy_validation": true
+  },
+  "invigilator_rules": {
+    "total_invigilators": 200,
+    "availability_is_hard_constraint": true,
+    "double_booking_allowed": false,
+    "daily_maximum_hours_enforced": true,
+    "one_primary_invigilator_per_occupied_room": true,
+    "invigilator_assignment_must_cover_occupancy_interval": true
+  },
+  "resources": {
+  "invigilators": 200,
+  "equipment_types": 6,
+  "accommodations": 505,
+  "room_closures": 8,
+  "invigilator_availability_records": 1000
+},
+  "edge_case_fixtures": {
+    "total": 150,
+    "distribution": {
+      "student_overlap": 30,
+      "room_capacity_boundary": 25,
+      "invigilator_conflicts": 25,
+      "extended_time": 30,
+      "room_closure": 20,
+      "equipment_changeover": 20
+    },
+    "fixtures_must_be_executable": true,
+    "fixtures_must_be_independently_validated": true
+  },
+  "validation": {
+    "require_exact_student_count": true,
+    "require_exact_track_count": true,
+    "require_exact_course_count": true,
+    "require_exact_enrollment_count": true,
+    "require_exact_exam_count": true,
+    "require_exact_sitting_count": true,
+    "require_exact_track_distribution": true,
+    "require_three_compulsory_courses_per_student": true,
+    "require_one_optional_course_per_student": true,
+    "require_no_student_exam_overlap": true,
+    "require_room_capacity_compliance": true,
+    "require_room_closure_compliance": true,
+    "require_equipment_compliance": true,
+    "require_accessibility_compliance": true,
+    "require_invigilator_availability": true,
+    "require_invigilator_workload_compliance": true,
+    "require_extended_time_compliance": true,
+    "require_zero_hard_constraint_violations": true
+  },
+  "database": {
+    "enabled": false,
+    "server": "Manthan\\SQLEXPRESS",
+    "database_name": "ExamSchedulingDB",
+    "allow_schema_modification": false,
+    "allow_data_insertion": false,
+    "allow_data_deletion": false
+  }
+}

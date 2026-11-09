@@ -1,0 +1,58 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# API runtime data
+api_runs/
+*.log
+
+# Documentation backups
+docs_backup_before_api_docs_*/
+
+# Historical generated datasets
+output/
+output_v120/
+
+# Keep only the authoritative v2.2.0 dataset
+output_v2/*
+!output_v2/full/
+output_v2/full/*
+!output_v2/full/v2.2.0/
+
+# Audit archives and local inventory
+*.zip
+project_structure.txt
+submission_file_inventory.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Protected evaluation data
+GroundTruth.csv
+**/GroundTruth.csv
+**/ground_truth/**
+
+# Temporary and backup files
+*.bak
+*.backup
+*.backup_*
+*.pre_student_conflict.bak
+*_before_*
+app_backup.py
+app_before_*.py
+
+# Temporary validator patch scripts
+patch_business_rule_validator_v220*.py
+
+# Exclude backup directories at any level
+**/*backup*/
+**/*before_*/

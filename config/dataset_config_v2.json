@@ -1,0 +1,40 @@
+{
+  "version": "2.1.0",
+  "seed": 20261022,
+  "academic_year": 2026,
+  
+  "output_directory": "output_v2/full/v2.1.0",
+  "scale": {
+    "students": 5000,
+    "courses": 100,
+    "exams_per_course": 3,
+    "rooms": 100,
+    "invigilators": 200,
+    "equipment_types": 6,
+    "accommodations": 505,
+    "room_closures": 8,
+    "availability_records": 1000
+  },
+  "enrollment": {
+    "minimum_compulsory_courses": 2,
+    "maximum_compulsory_courses": 3,
+    "maximum_optional_courses": 1
+  },
+  "exam": {
+    "standard_duration_minutes": 90,
+    "extended_duration_minutes": 120,
+    "minimum_duration_minutes": 15,
+    "maximum_duration_minutes": 600
+  },
+  "edge_cases": {
+    "total": 150,
+    "distribution": {
+      "STUDENT_OVERLAPPING_EXAMS": 30,
+      "ROOM_CAPACITY_BOUNDARY": 25,
+      "INVIGILATOR_CONFLICT": 25,
+      "EXTENDED_TIME_ACCOMMODATION": 30,
+      "ROOM_CLOSURE": 20,
+      "EQUIPMENT_CHANGEOVER": 20
+    }
+  }
+}
